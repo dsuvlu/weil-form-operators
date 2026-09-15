@@ -1,0 +1,19 @@
+{
+  "experiment_08_ground_selection.py": "a80d098bbc8e683dcc541440cafa6f651de461b6f555c24f23b4533dbd9de902",
+  "experiment_06_boundary_leakage.py": "22998bda1df2eeccd34a0ef9acfe0942177239bb58db816e5a52df73c3ef3228",
+  "experiment_09_finite_characteristic.py": "6881beee7acb4828241ddb1e478fe9bcfc3c7dba6d83b25d0e1b8c98e77ce5a7",
+  "experiment_04_completed_kernel.py": "c992059f5d81d5e0328ed78387d7f99bbf6620e7ad0f20f8fc9667caeb5a833a",
+  "experiment_11_moving_family.py": "b658e5a28d9301a3bee36d6743a57f291443655cf2f7c0a4b5f788240a146936",
+  "experiment_10_range_vs_projection.py": "b918dd01c84e506ecbe74322c67c3714002851bdf4c812fbebf320d5836ebfb4",
+  "experiment_02_finite_euler_algebra.py": "cbf4c3560e374dc3f5f74ba71efc2c71cfe2d1cdb162b2052b536df8dcd89550",
+  "experiment_12_precision_ladder.py": "0dc40e4116e744d909f6bbf3473e2ae4986dcccec79c548cdb282de317debfdc",
+  "experiment_03_absorbing_resolvent.py": "964bd1a82c5bfc10a62ad24a074644e8113cde2af085bbddc74e8d063a6c45f0",
+  "experiment_01_logarithmic_translation.py": "66219ac91a28226eb9b2a4580b7a951424a191633fa023726fe8d17338ea15a4",
+  "run_all.py": "5f174324a15bafa3d55f1ac9de725a0f9bc58c2b0fd412c81bf24d7c5986a242",
+  "experiment_05_nonclosability.py": "e7802ab3d3c2360aa07adb4c4c3468e0eb3f16c1a4f09fd64ce922153cd55bea",
+  "experiment_07_fourier_matrix.py": "936d4a37dd216303eccc69d917bafbf61475f2bb73ebe70eb4368c5eb08ac196",
+  "high_precision.py": "de4e684b2b8aff27667f0bafce17b9adf5e1bef78b9f1faa4d68f59f7e888aa0",
+  "common.py": "32399b370f86ef5a76473b39d794b003624c33f836e73c17895d37ff90cf1351",
+  "smoke_test.py": "9801e3083725992e97f2a842e6d85deed6762414026abe01ebb495894f2f7488",
+  "precision.py": "c02323e68d8be7c4030f81de612ba42b6fbc48dcc43e484663d135549e55be6e"
+}

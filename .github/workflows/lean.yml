@@ -1,0 +1,31 @@
+name: Lean verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Check distribution and frozen sources
+        run: |
+          python3 scripts/check_release.py
+          python3 verification/audit/check.py
+      - name: Install elan
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/leanprover/elan/0e36a07b9bbcc5381fa6250df109f9a4f94d7bac/elan-init.sh -o /tmp/elan-init.sh
+          sh /tmp/elan-init.sh -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Retrieve pinned dependencies and mathlib cache
+        working-directory: verification
+        run: lake exe cache get
+      - name: Build default aggregate
+        working-directory: verification
+        run: lake build
+      - name: Audit every compiled project declaration
+        working-directory: verification
+        run: python3 audit/check.py --compiled

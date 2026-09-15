@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "namespace_declarations": 3240,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "elaborated_types_match": true
+}

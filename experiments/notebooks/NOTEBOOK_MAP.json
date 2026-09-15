@@ -1,0 +1,879 @@
+{
+  "marimo_version": "0.24.2",
+  "notebooks": [
+    {
+      "file": "playground_01_logarithmic_translation.py",
+      "script": "experiment_01_logarithmic_translation.py",
+      "defaults": {
+        "L": 3.4011973816621555,
+        "m": 2,
+        "n": 3,
+        "points": 1200,
+        "center": 2.4,
+        "width": 0.35
+      },
+      "copied_helpers": {}
+    },
+    {
+      "file": "playground_02_finite_euler_algebra.py",
+      "script": "experiment_02_finite_euler_algebra.py",
+      "defaults": {
+        "x": 30.0,
+        "sigma": 0.75,
+        "tau": 0.2
+      },
+      "copied_helpers": {
+        "derivative_of_synthesis": {
+          "source": "common.py",
+          "line": 222,
+          "original_name": "derivative_of_synthesis"
+        },
+        "direct_euler_synthesis": {
+          "source": "common.py",
+          "line": 188,
+          "original_name": "direct_euler_synthesis"
+        },
+        "euler_product_synthesis": {
+          "source": "common.py",
+          "line": 194,
+          "original_name": "euler_product_synthesis"
+        },
+        "maximum_dictionary_error": {
+          "source": "common.py",
+          "line": 244,
+          "original_name": "maximum_dictionary_error"
+        },
+        "mobius_inverse_coefficients": {
+          "source": "common.py",
+          "line": 210,
+          "original_name": "mobius_inverse_coefficients"
+        },
+        "mobius_table": {
+          "source": "common.py",
+          "line": 112,
+          "original_name": "mobius_table"
+        },
+        "multiply_shift_algebra": {
+          "source": "common.py",
+          "line": 168,
+          "original_name": "multiply_shift_algebra"
+        },
+        "prime_current_coefficients": {
+          "source": "common.py",
+          "line": 232,
+          "original_name": "prime_current_coefficients"
+        },
+        "primes_below": {
+          "source": "common.py",
+          "line": 92,
+          "original_name": "primes_below"
+        },
+        "von_mangoldt_table": {
+          "source": "common.py",
+          "line": 149,
+          "original_name": "von_mangoldt_table"
+        }
+      }
+    },
+    {
+      "file": "playground_03_absorbing_resolvent.py",
+      "script": "experiment_03_absorbing_resolvent.py",
+      "defaults": {
+        "L": 3.0,
+        "b": 1.3,
+        "points": 1600
+      },
+      "copied_helpers": {
+        "trapezoid": {
+          "source": "common.py",
+          "line": 36,
+          "original_name": "trapezoid"
+        },
+        "volterra_resolvent": {
+          "source": "common.py",
+          "line": 273,
+          "original_name": "volterra_resolvent"
+        }
+      }
+    },
+    {
+      "file": "playground_04_completed_kernel.py",
+      "script": "experiment_04_completed_kernel.py",
+      "defaults": {
+        "y_max": 10.0,
+        "points": 12000,
+        "precision": "float64"
+      },
+      "copied_helpers": {
+        "PrecisionChoice": {
+          "source": "precision.py",
+          "line": 33,
+          "original_name": "PrecisionChoice"
+        },
+        "kernel_antiderivative": {
+          "source": "high_precision.py",
+          "line": 65,
+          "original_name": "_kernel_antiderivative"
+        },
+        "configure_mpmath": {
+          "source": "precision.py",
+          "line": 72,
+          "original_name": "configure_mpmath"
+        },
+        "critical_kernel": {
+          "source": "common.py",
+          "line": 304,
+          "original_name": "critical_kernel"
+        },
+        "critical_kernel_scalar": {
+          "source": "common.py",
+          "line": 293,
+          "original_name": "critical_kernel_scalar"
+        },
+        "mp_completed_kernel_l1": {
+          "source": "high_precision.py",
+          "line": 80,
+          "original_name": "mp_completed_kernel_l1"
+        }
+      }
+    },
+    {
+      "file": "playground_05_nonclosability.py",
+      "script": "experiment_05_nonclosability.py",
+      "defaults": {
+        "d": 1.0,
+        "T_max": 8,
+        "points": 7000
+      },
+      "copied_helpers": {
+        "critical_kernel": {
+          "source": "common.py",
+          "line": 304,
+          "original_name": "critical_kernel"
+        },
+        "critical_kernel_scalar": {
+          "source": "common.py",
+          "line": 293,
+          "original_name": "critical_kernel_scalar"
+        }
+      }
+    },
+    {
+      "file": "playground_06_boundary_leakage.py",
+      "script": "experiment_06_boundary_leakage.py",
+      "defaults": {
+        "x": 2.0,
+        "h": 0.002,
+        "points": 600,
+        "gamma_steps": 1100
+      },
+      "copied_helpers": {
+        "correlation_same_vector": {
+          "source": "common.py",
+          "line": 418,
+          "original_name": "correlation_same_vector"
+        },
+        "critical_kernel": {
+          "source": "common.py",
+          "line": 304,
+          "original_name": "critical_kernel"
+        },
+        "critical_kernel_scalar": {
+          "source": "common.py",
+          "line": 293,
+          "original_name": "critical_kernel_scalar"
+        },
+        "escaped_output": {
+          "source": "common.py",
+          "line": 396,
+          "original_name": "escaped_output"
+        },
+        "finite_completed_output_product": {
+          "source": "common.py",
+          "line": 946,
+          "original_name": "finite_completed_output_product"
+        },
+        "finite_euler_output": {
+          "source": "common.py",
+          "line": 900,
+          "original_name": "finite_euler_output"
+        },
+        "finite_gamma_output": {
+          "source": "common.py",
+          "line": 919,
+          "original_name": "finite_gamma_output"
+        },
+        "interpolate_complex": {
+          "source": "common.py",
+          "line": 48,
+          "original_name": "interpolate_complex"
+        },
+        "killed_shift_samples": {
+          "source": "common.py",
+          "line": 261,
+          "original_name": "killed_shift_samples"
+        },
+        "l2_norm": {
+          "source": "common.py",
+          "line": 42,
+          "original_name": "l2_norm"
+        },
+        "primes_below": {
+          "source": "common.py",
+          "line": 92,
+          "original_name": "primes_below"
+        },
+        "retained_output": {
+          "source": "common.py",
+          "line": 379,
+          "original_name": "retained_output"
+        },
+        "trapezoid": {
+          "source": "common.py",
+          "line": 36,
+          "original_name": "trapezoid"
+        },
+        "volterra_resolvent": {
+          "source": "common.py",
+          "line": 273,
+          "original_name": "volterra_resolvent"
+        },
+        "von_mangoldt_table": {
+          "source": "common.py",
+          "line": 149,
+          "original_name": "von_mangoldt_table"
+        },
+        "weil_form_same_vector": {
+          "source": "common.py",
+          "line": 430,
+          "original_name": "weil_form_same_vector"
+        }
+      }
+    },
+    {
+      "file": "playground_07_fourier_matrix.py",
+      "script": "experiment_07_fourier_matrix.py",
+      "defaults": {
+        "x": 13.0,
+        "N": 4,
+        "gamma_terms": 6000,
+        "y_steps": 7000,
+        "precision": "float64"
+      },
+      "copied_helpers": {
+        "PrecisionChoice": {
+          "source": "precision.py",
+          "line": 33,
+          "original_name": "PrecisionChoice"
+        },
+        "prime_power_base": {
+          "source": "high_precision.py",
+          "line": 27,
+          "original_name": "_prime_power_base"
+        },
+        "arithmetic_interpolation_and_derivative": {
+          "source": "common.py",
+          "line": 527,
+          "original_name": "arithmetic_interpolation_and_derivative"
+        },
+        "build_weil_matrix": {
+          "source": "common.py",
+          "line": 601,
+          "original_name": "build_weil_matrix"
+        },
+        "configure_mpmath": {
+          "source": "precision.py",
+          "line": 72,
+          "original_name": "configure_mpmath"
+        },
+        "digamma_complex": {
+          "source": "common.py",
+          "line": 482,
+          "original_name": "digamma_complex"
+        },
+        "direct_weil_entry": {
+          "source": "common.py",
+          "line": 656,
+          "original_name": "direct_weil_entry"
+        },
+        "direct_weil_matrix": {
+          "source": "common.py",
+          "line": 699,
+          "original_name": "direct_weil_matrix"
+        },
+        "fourier_pair_correlation": {
+          "source": "common.py",
+          "line": 637,
+          "original_name": "fourier_pair_correlation"
+        },
+        "gamma_multiplier": {
+          "source": "common.py",
+          "line": 594,
+          "original_name": "gamma_multiplier"
+        },
+        "mp_arithmetic_interpolation_and_derivative": {
+          "source": "high_precision.py",
+          "line": 116,
+          "original_name": "mp_arithmetic_interpolation_and_derivative"
+        },
+        "mp_build_weil_matrix": {
+          "source": "high_precision.py",
+          "line": 183,
+          "original_name": "mp_build_weil_matrix"
+        },
+        "mp_gamma_multiplier": {
+          "source": "high_precision.py",
+          "line": 174,
+          "original_name": "mp_gamma_multiplier"
+        },
+        "mp_to_float_matrix": {
+          "source": "high_precision.py",
+          "line": 333,
+          "original_name": "mp_to_float_matrix"
+        },
+        "primes_below": {
+          "source": "common.py",
+          "line": 92,
+          "original_name": "primes_below"
+        },
+        "trigamma_complex": {
+          "source": "common.py",
+          "line": 507,
+          "original_name": "trigamma_complex"
+        },
+        "von_mangoldt_table": {
+          "source": "common.py",
+          "line": 149,
+          "original_name": "von_mangoldt_table"
+        }
+      }
+    },
+    {
+      "file": "playground_08_ground_selection.py",
+      "script": "experiment_08_ground_selection.py",
+      "defaults": {
+        "x": 2.0,
+        "N": 4,
+        "precision": "float64"
+      },
+      "copied_helpers": {
+        "PrecisionChoice": {
+          "source": "precision.py",
+          "line": 33,
+          "original_name": "PrecisionChoice"
+        },
+        "mp_vector_norm": {
+          "source": "high_precision.py",
+          "line": 220,
+          "original_name": "_mp_vector_norm"
+        },
+        "prime_power_base": {
+          "source": "high_precision.py",
+          "line": 27,
+          "original_name": "_prime_power_base"
+        },
+        "arithmetic_interpolation_and_derivative": {
+          "source": "common.py",
+          "line": 527,
+          "original_name": "arithmetic_interpolation_and_derivative"
+        },
+        "build_weil_matrix": {
+          "source": "common.py",
+          "line": 601,
+          "original_name": "build_weil_matrix"
+        },
+        "configure_mpmath": {
+          "source": "precision.py",
+          "line": 72,
+          "original_name": "configure_mpmath"
+        },
+        "digamma_complex": {
+          "source": "common.py",
+          "line": 482,
+          "original_name": "digamma_complex"
+        },
+        "fourier_series_values": {
+          "source": "common.py",
+          "line": 747,
+          "original_name": "fourier_series_values"
+        },
+        "gamma_multiplier": {
+          "source": "common.py",
+          "line": 594,
+          "original_name": "gamma_multiplier"
+        },
+        "ground_state_data": {
+          "source": "common.py",
+          "line": 715,
+          "original_name": "ground_state_data"
+        },
+        "mp_arithmetic_interpolation_and_derivative": {
+          "source": "high_precision.py",
+          "line": 116,
+          "original_name": "mp_arithmetic_interpolation_and_derivative"
+        },
+        "mp_build_weil_matrix": {
+          "source": "high_precision.py",
+          "line": 183,
+          "original_name": "mp_build_weil_matrix"
+        },
+        "mp_gamma_multiplier": {
+          "source": "high_precision.py",
+          "line": 174,
+          "original_name": "mp_gamma_multiplier"
+        },
+        "mp_ground_state_data": {
+          "source": "high_precision.py",
+          "line": 224,
+          "original_name": "mp_ground_state_data"
+        },
+        "mp_to_complex_array": {
+          "source": "high_precision.py",
+          "line": 344,
+          "original_name": "mp_to_complex_array"
+        },
+        "primes_below": {
+          "source": "common.py",
+          "line": 92,
+          "original_name": "primes_below"
+        },
+        "trigamma_complex": {
+          "source": "common.py",
+          "line": 507,
+          "original_name": "trigamma_complex"
+        },
+        "von_mangoldt_table": {
+          "source": "common.py",
+          "line": 149,
+          "original_name": "von_mangoldt_table"
+        }
+      }
+    },
+    {
+      "file": "playground_09_finite_characteristic.py",
+      "script": "experiment_09_finite_characteristic.py",
+      "defaults": {
+        "x": 2.0,
+        "N": 4,
+        "z_real": 1.1,
+        "z_imag": 0.3,
+        "plot_points": 1800,
+        "precision": "float64"
+      },
+      "copied_helpers": {
+        "PrecisionChoice": {
+          "source": "precision.py",
+          "line": 33,
+          "original_name": "PrecisionChoice"
+        },
+        "mp_sinc": {
+          "source": "high_precision.py",
+          "line": 311,
+          "original_name": "_mp_sinc"
+        },
+        "mp_vector_norm": {
+          "source": "high_precision.py",
+          "line": 220,
+          "original_name": "_mp_vector_norm"
+        },
+        "prime_power_base": {
+          "source": "high_precision.py",
+          "line": 27,
+          "original_name": "_prime_power_base"
+        },
+        "arithmetic_interpolation_and_derivative": {
+          "source": "common.py",
+          "line": 527,
+          "original_name": "arithmetic_interpolation_and_derivative"
+        },
+        "build_weil_matrix": {
+          "source": "common.py",
+          "line": 601,
+          "original_name": "build_weil_matrix"
+        },
+        "centered_fourier_transform": {
+          "source": "common.py",
+          "line": 775,
+          "original_name": "centered_fourier_transform"
+        },
+        "characteristic_from_determinants": {
+          "source": "common.py",
+          "line": 818,
+          "original_name": "characteristic_from_determinants"
+        },
+        "characteristic_from_transform": {
+          "source": "common.py",
+          "line": 806,
+          "original_name": "characteristic_from_transform"
+        },
+        "configure_mpmath": {
+          "source": "precision.py",
+          "line": 72,
+          "original_name": "configure_mpmath"
+        },
+        "corrected_derivative_matrix": {
+          "source": "common.py",
+          "line": 762,
+          "original_name": "corrected_derivative_matrix"
+        },
+        "digamma_complex": {
+          "source": "common.py",
+          "line": 482,
+          "original_name": "digamma_complex"
+        },
+        "gamma_multiplier": {
+          "source": "common.py",
+          "line": 594,
+          "original_name": "gamma_multiplier"
+        },
+        "ground_state_data": {
+          "source": "common.py",
+          "line": 715,
+          "original_name": "ground_state_data"
+        },
+        "mp_arithmetic_interpolation_and_derivative": {
+          "source": "high_precision.py",
+          "line": 116,
+          "original_name": "mp_arithmetic_interpolation_and_derivative"
+        },
+        "mp_build_weil_matrix": {
+          "source": "high_precision.py",
+          "line": 183,
+          "original_name": "mp_build_weil_matrix"
+        },
+        "mp_centered_fourier_transform": {
+          "source": "high_precision.py",
+          "line": 264,
+          "original_name": "mp_centered_fourier_transform"
+        },
+        "mp_characteristic_from_determinants": {
+          "source": "high_precision.py",
+          "line": 317,
+          "original_name": "mp_characteristic_from_determinants"
+        },
+        "mp_characteristic_from_transform": {
+          "source": "high_precision.py",
+          "line": 285,
+          "original_name": "mp_characteristic_from_transform"
+        },
+        "mp_corrected_derivative_matrix": {
+          "source": "high_precision.py",
+          "line": 294,
+          "original_name": "mp_corrected_derivative_matrix"
+        },
+        "mp_gamma_multiplier": {
+          "source": "high_precision.py",
+          "line": 174,
+          "original_name": "mp_gamma_multiplier"
+        },
+        "mp_ground_state_data": {
+          "source": "high_precision.py",
+          "line": 224,
+          "original_name": "mp_ground_state_data"
+        },
+        "mp_to_complex_array": {
+          "source": "high_precision.py",
+          "line": 344,
+          "original_name": "mp_to_complex_array"
+        },
+        "primes_below": {
+          "source": "common.py",
+          "line": 92,
+          "original_name": "primes_below"
+        },
+        "sinc_complex": {
+          "source": "common.py",
+          "line": 798,
+          "original_name": "sinc_complex"
+        },
+        "trigamma_complex": {
+          "source": "common.py",
+          "line": 507,
+          "original_name": "trigamma_complex"
+        },
+        "von_mangoldt_table": {
+          "source": "common.py",
+          "line": 149,
+          "original_name": "von_mangoldt_table"
+        }
+      }
+    },
+    {
+      "file": "playground_10_range_vs_projection.py",
+      "script": "experiment_10_range_vs_projection.py",
+      "defaults": {
+        "x": 2.0,
+        "N": 4,
+        "width_fraction": 0.18,
+        "points": 6000
+      },
+      "copied_helpers": {
+        "arithmetic_interpolation_and_derivative": {
+          "source": "common.py",
+          "line": 527,
+          "original_name": "arithmetic_interpolation_and_derivative"
+        },
+        "build_weil_matrix": {
+          "source": "common.py",
+          "line": 601,
+          "original_name": "build_weil_matrix"
+        },
+        "digamma_complex": {
+          "source": "common.py",
+          "line": 482,
+          "original_name": "digamma_complex"
+        },
+        "fourier_series_values": {
+          "source": "common.py",
+          "line": 747,
+          "original_name": "fourier_series_values"
+        },
+        "gamma_multiplier": {
+          "source": "common.py",
+          "line": 594,
+          "original_name": "gamma_multiplier"
+        },
+        "ground_state_data": {
+          "source": "common.py",
+          "line": 715,
+          "original_name": "ground_state_data"
+        },
+        "primes_below": {
+          "source": "common.py",
+          "line": 92,
+          "original_name": "primes_below"
+        },
+        "trigamma_complex": {
+          "source": "common.py",
+          "line": 507,
+          "original_name": "trigamma_complex"
+        },
+        "von_mangoldt_table": {
+          "source": "common.py",
+          "line": 149,
+          "original_name": "von_mangoldt_table"
+        }
+      }
+    },
+    {
+      "file": "playground_11_moving_family.py",
+      "script": "experiment_11_moving_family.py",
+      "defaults": {
+        "precision": "float64"
+      },
+      "copied_helpers": {
+        "PrecisionChoice": {
+          "source": "precision.py",
+          "line": 33,
+          "original_name": "PrecisionChoice"
+        },
+        "mp_vector_norm": {
+          "source": "high_precision.py",
+          "line": 220,
+          "original_name": "_mp_vector_norm"
+        },
+        "prime_power_base": {
+          "source": "high_precision.py",
+          "line": 27,
+          "original_name": "_prime_power_base"
+        },
+        "arithmetic_interpolation_and_derivative": {
+          "source": "common.py",
+          "line": 527,
+          "original_name": "arithmetic_interpolation_and_derivative"
+        },
+        "build_weil_matrix": {
+          "source": "common.py",
+          "line": 601,
+          "original_name": "build_weil_matrix"
+        },
+        "centered_fourier_transform": {
+          "source": "common.py",
+          "line": 775,
+          "original_name": "centered_fourier_transform"
+        },
+        "characteristic_from_transform": {
+          "source": "common.py",
+          "line": 806,
+          "original_name": "characteristic_from_transform"
+        },
+        "configure_mpmath": {
+          "source": "precision.py",
+          "line": 72,
+          "original_name": "configure_mpmath"
+        },
+        "digamma_complex": {
+          "source": "common.py",
+          "line": 482,
+          "original_name": "digamma_complex"
+        },
+        "gamma_multiplier": {
+          "source": "common.py",
+          "line": 594,
+          "original_name": "gamma_multiplier"
+        },
+        "ground_state_data": {
+          "source": "common.py",
+          "line": 715,
+          "original_name": "ground_state_data"
+        },
+        "mp_arithmetic_interpolation_and_derivative": {
+          "source": "high_precision.py",
+          "line": 116,
+          "original_name": "mp_arithmetic_interpolation_and_derivative"
+        },
+        "mp_build_weil_matrix": {
+          "source": "high_precision.py",
+          "line": 183,
+          "original_name": "mp_build_weil_matrix"
+        },
+        "mp_centered_fourier_transform": {
+          "source": "high_precision.py",
+          "line": 264,
+          "original_name": "mp_centered_fourier_transform"
+        },
+        "mp_characteristic_from_transform": {
+          "source": "high_precision.py",
+          "line": 285,
+          "original_name": "mp_characteristic_from_transform"
+        },
+        "mp_gamma_multiplier": {
+          "source": "high_precision.py",
+          "line": 174,
+          "original_name": "mp_gamma_multiplier"
+        },
+        "mp_ground_state_data": {
+          "source": "high_precision.py",
+          "line": 224,
+          "original_name": "mp_ground_state_data"
+        },
+        "mp_to_complex_array": {
+          "source": "high_precision.py",
+          "line": 344,
+          "original_name": "mp_to_complex_array"
+        },
+        "primes_below": {
+          "source": "common.py",
+          "line": 92,
+          "original_name": "primes_below"
+        },
+        "trigamma_complex": {
+          "source": "common.py",
+          "line": 507,
+          "original_name": "trigamma_complex"
+        },
+        "von_mangoldt_table": {
+          "source": "common.py",
+          "line": 149,
+          "original_name": "von_mangoldt_table"
+        }
+      }
+    },
+    {
+      "file": "playground_12_precision_ladder.py",
+      "script": "experiment_12_precision_ladder.py",
+      "defaults": {
+        "x": 2.0,
+        "N": 4,
+        "max_dps": 200
+      },
+      "copied_helpers": {
+        "mp_vector_norm": {
+          "source": "high_precision.py",
+          "line": 220,
+          "original_name": "_mp_vector_norm"
+        },
+        "prime_power_base": {
+          "source": "high_precision.py",
+          "line": 27,
+          "original_name": "_prime_power_base"
+        },
+        "arithmetic_interpolation_and_derivative": {
+          "source": "common.py",
+          "line": 527,
+          "original_name": "arithmetic_interpolation_and_derivative"
+        },
+        "build_weil_matrix": {
+          "source": "common.py",
+          "line": 601,
+          "original_name": "build_weil_matrix"
+        },
+        "centered_fourier_transform": {
+          "source": "common.py",
+          "line": 775,
+          "original_name": "centered_fourier_transform"
+        },
+        "characteristic_from_transform": {
+          "source": "common.py",
+          "line": 806,
+          "original_name": "characteristic_from_transform"
+        },
+        "configure_mpmath": {
+          "source": "precision.py",
+          "line": 72,
+          "original_name": "configure_mpmath"
+        },
+        "digamma_complex": {
+          "source": "common.py",
+          "line": 482,
+          "original_name": "digamma_complex"
+        },
+        "gamma_multiplier": {
+          "source": "common.py",
+          "line": 594,
+          "original_name": "gamma_multiplier"
+        },
+        "ground_state_data": {
+          "source": "common.py",
+          "line": 715,
+          "original_name": "ground_state_data"
+        },
+        "mp_arithmetic_interpolation_and_derivative": {
+          "source": "high_precision.py",
+          "line": 116,
+          "original_name": "mp_arithmetic_interpolation_and_derivative"
+        },
+        "mp_build_weil_matrix": {
+          "source": "high_precision.py",
+          "line": 183,
+          "original_name": "mp_build_weil_matrix"
+        },
+        "mp_centered_fourier_transform": {
+          "source": "high_precision.py",
+          "line": 264,
+          "original_name": "mp_centered_fourier_transform"
+        },
+        "mp_characteristic_from_transform": {
+          "source": "high_precision.py",
+          "line": 285,
+          "original_name": "mp_characteristic_from_transform"
+        },
+        "mp_gamma_multiplier": {
+          "source": "high_precision.py",
+          "line": 174,
+          "original_name": "mp_gamma_multiplier"
+        },
+        "mp_ground_state_data": {
+          "source": "high_precision.py",
+          "line": 224,
+          "original_name": "mp_ground_state_data"
+        },
+        "primes_below": {
+          "source": "common.py",
+          "line": 92,
+          "original_name": "primes_below"
+        },
+        "trigamma_complex": {
+          "source": "common.py",
+          "line": 507,
+          "original_name": "trigamma_complex"
+        },
+        "von_mangoldt_table": {
+          "source": "common.py",
+          "line": 149,
+          "original_name": "von_mangoldt_table"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Riemann.Analysis.FiniteWindow.completedDerivative_eq_neg_frame_current",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedCurrentIdentity.lean",
+    "line": 28,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L : ℝ},\n  0 < L →\n    ∀ (f : ↥(Riemann.Analysis.FiniteWindow.gammaCurrentDomain L)),\n      (Riemann.Analysis.FiniteWindow.completedDerivative L) ↑f =\n        -(Riemann.Analysis.FiniteWindow.completedFrame L (1 / 2)) ((Riemann.Analysis.FiniteWindow.completedCurrent L) f)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.completedCurrent_frame_eq_neg_derivative",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedCurrentIdentity.lean",
+    "line": 80,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L : ℝ} (hL : 0 < L) (u : ↥(Riemann.Analysis.FiniteWindow.Hilbert L)),\n  (Riemann.Analysis.FiniteWindow.completedCurrent L) ⟨(Riemann.Analysis.FiniteWindow.completedFrame L (1 / 2)) u, ⋯⟩ =\n    -(Riemann.Analysis.FiniteWindow.completedDerivative L) u"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.hasDerivAt_completedFrame_half",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedFrame.lean",
+    "line": 28,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L : ℝ},\n  0 < L →\n    HasDerivAt (Riemann.Analysis.FiniteWindow.completedFrame L) (Riemann.Analysis.FiniteWindow.completedDerivative L)\n      (1 / 2)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.completedFrame_hasDerivAt",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedFrame.lean",
+    "line": 34,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L σ : ℝ}, 0 < L → σ ∈ Set.Ioo 0 1 → ∃ T, HasDerivAt (Riemann.Analysis.FiniteWindow.completedFrame L) T σ"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.range_completedFrame",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedFrame.lean",
+    "line": 88,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L : ℝ},\n  0 < L →\n    (↑(Riemann.Analysis.FiniteWindow.completedFrame L (1 / 2))).range = Riemann.Analysis.FiniteWindow.generatorDomain L"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.completedSource",
+    "kind": "def",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedFrame.lean",
+    "line": 129,
+    "elaborated_kind": "definition",
+    "type": "(L : ℝ) → 0 < L → ↥(Riemann.Analysis.FiniteWindow.generatorDomain L) →ₗ[ℂ] ↥(Riemann.Analysis.FiniteWindow.Hilbert L)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.completedSource_unique",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedFrame.lean",
+    "line": 136,
+    "elaborated_kind": "theorem",
+    "type": "∀ (L : ℝ) (hL : 0 < L) (w : ↥(Riemann.Analysis.FiniteWindow.generatorDomain L))\n  {u : ↥(Riemann.Analysis.FiniteWindow.Hilbert L)},\n  (Riemann.Analysis.FiniteWindow.completedFrame L (1 / 2)) u = ↑w →\n    u = (Riemann.Analysis.FiniteWindow.completedSource L hL) w"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.mem_completedFrame_range_iff_ac",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedFrame.lean",
+    "line": 142,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L : ℝ},\n  0 < L →\n    ∀ (f : ↥(Riemann.Analysis.FiniteWindow.Hilbert L)),\n      f ∈ (↑(Riemann.Analysis.FiniteWindow.completedFrame L (1 / 2))).range ↔\n        ∃ g, Riemann.Analysis.FiniteWindow.HasACDerivative L f g"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.completedFrame_nativeCompletedSource",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/CompletedFrame.lean",
+    "line": 154,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} {L : ℝ} (hL : 0 < L) (x : Riemann.CCM.Native.Section N) (hx : (Riemann.CCM.Native.endpoint N L) x = 0),\n  (Riemann.Analysis.FiniteWindow.completedFrame L (1 / 2))\n      (Riemann.Analysis.FiniteWindow.nativeCompletedSource hL x hx) =\n    Riemann.Analysis.FiniteWindow.fourierHilbert L x"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.gammaCurrent_native_formula",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/GammaBackgroundForm.lean",
+    "line": 71,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L : ℝ},\n  0 < L →\n    ∀ (f : ↥(Riemann.Analysis.FiniteWindow.gammaCurrentDomain L)),\n      (Riemann.Analysis.FiniteWindow.gammaCurrent L) f =\n        ↑(Riemann.Analysis.FiniteWindow.nativeGammaConstant L / 2) • ↑f +\n          ∫ (y : ℝ) in Set.Ioo 0 L, Riemann.Analysis.FiniteWindow.nativeGammaIntegrand L (↑f) y"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.hasDerivAt_gammaOperator_half",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/GammaOperator.lean",
+    "line": 44,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L : ℝ},\n  0 < L →\n    HasDerivAt (Riemann.Analysis.FiniteWindow.gammaOperator L) (Riemann.Analysis.FiniteWindow.gammaDerivative L) (1 / 2)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.gammaOperator_hasDerivAt",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/GammaOperator.lean",
+    "line": 52,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L σ : ℝ}, 0 < L → σ ∈ Set.Ioo 0 1 → ∃ T, HasDerivAt (Riemann.Analysis.FiniteWindow.gammaOperator L) T σ"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.gammaOperator_half",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/GammaOperator.lean",
+    "line": 95,
+    "elaborated_kind": "theorem",
+    "type": "∀ {L : ℝ},\n  0 < L →\n    Riemann.Analysis.FiniteWindow.gammaOperator L (1 / 2) =\n      (2 * ↑Real.pi) • Riemann.Analysis.FiniteWindow.volterra L (1 / 2)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativeCompletedCoefficients",
+    "kind": "def",
+    "source": "Riemann/Analysis/FiniteWindow/NativeCompletedCoefficients.lean",
+    "line": 16,
+    "elaborated_kind": "definition",
+    "type": "(N : ℕ) → ℝ → Riemann.CCM.Native.Coefficients N"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativeCompleted_weilOperator",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/NativeCompletedCoefficients.lean",
+    "line": 39,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} {L : ℝ} (hL : 0 < L),\n  Riemann.CCM.Native.weilOperator (Riemann.Analysis.FiniteWindow.nativeCompletedCoefficients N L) =\n    -(Riemann.Analysis.FiniteWindow.nativeCompletedCompression N hL +\n        ContinuousLinearMap.adjoint (Riemann.Analysis.FiniteWindow.nativeCompletedCompression N hL))"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativeCompletedCurrent_form",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/NativeCompletedCoefficients.lean",
+    "line": 49,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} {L : ℝ} (hL : 0 < L) (x y : Riemann.CCM.Native.Section N),\n  Riemann.Analysis.FiniteWindow.completedCurrentForm L ((Riemann.Analysis.FiniteWindow.nativeCurrentInclusion N hL) x)\n      ((Riemann.Analysis.FiniteWindow.nativeCurrentInclusion N hL) y) =\n    inner ℂ x ((Riemann.CCM.Native.weilOperator (Riemann.Analysis.FiniteWindow.nativeCompletedCoefficients N L)) y)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativeGammaCoefficients_beta",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/NativeGammaCoefficients.lean",
+    "line": 58,
+    "elaborated_kind": "theorem",
+    "type": "∀ (N : ℕ) (L : ℝ) (i : Riemann.CCM.Native.Index N),\n  (Riemann.Analysis.FiniteWindow.nativeGammaCoefficients N L).beta i =\n    ∫ (y : ℝ) in Set.Ioo 0 L,\n      Riemann.Analysis.FiniteWindow.gammaWeight y * Real.sin (Riemann.CCM.Native.frequency L i * y) / Real.pi"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativeGammaCoefficients_diagonal",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/NativeGammaCoefficients.lean",
+    "line": 68,
+    "elaborated_kind": "theorem",
+    "type": "∀ (N : ℕ) (L : ℝ) (i : Riemann.CCM.Native.Index N),\n  (Riemann.Analysis.FiniteWindow.nativeGammaCoefficients N L).diagonal i =\n    -2 * Riemann.Analysis.FiniteWindow.gammaConstant L -\n      2 *\n        ∫ (y : ℝ) in Set.Ioo 0 L,\n          Riemann.Analysis.FiniteWindow.gammaWeight y *\n              ((1 - y / L) * Real.cos (Riemann.CCM.Native.frequency L i * y) - 1) +\n            Riemann.Analysis.FiniteWindow.gammaRemainder y"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativeRealVolterraCoefficients_beta",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/NativePolarCoefficients.lean",
+    "line": 68,
+    "elaborated_kind": "theorem",
+    "type": "∀ (N : ℕ) (L b : ℝ) (i : Riemann.CCM.Native.Index N),\n  (Riemann.Analysis.FiniteWindow.nativeRealVolterraCoefficients N L b).beta i =\n    ∫ (y : ℝ) in Set.Ioo 0 L, -Real.exp (-b * y) * Real.sin (Riemann.CCM.Native.frequency L i * y) / Real.pi"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativeRealVolterraCoefficients_diagonal",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/NativePolarCoefficients.lean",
+    "line": 72,
+    "elaborated_kind": "theorem",
+    "type": "∀ (N : ℕ) (L b : ℝ) (i : Riemann.CCM.Native.Index N),\n  (Riemann.Analysis.FiniteWindow.nativeRealVolterraCoefficients N L b).diagonal i =\n    ∫ (y : ℝ) in Set.Ioo 0 L, 2 * Real.exp (-b * y) * (1 - y / L) * Real.cos (Riemann.CCM.Native.frequency L i * y)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativePrimeCoefficients_beta",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/NativePrimeCoefficients.lean",
+    "line": 139,
+    "elaborated_kind": "theorem",
+    "type": "∀ (N : ℕ) (L σ : ℝ) (i : Riemann.CCM.Native.Index N),\n  (Riemann.Analysis.FiniteWindow.nativePrimeCoefficients N L σ).beta i =\n    ∑ n ∈ Riemann.Analysis.FiniteWindow.primeSurvivors L,\n      Riemann.Analysis.FiniteWindow.primeRealWeight σ n * Real.sin (Riemann.CCM.Native.frequency L i * Real.log ↑n) /\n        Real.pi"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.nativePrimeCoefficients_diagonal",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/NativePrimeCoefficients.lean",
+    "line": 147,
+    "elaborated_kind": "theorem",
+    "type": "∀ (N : ℕ) (L σ : ℝ) (i : Riemann.CCM.Native.Index N),\n  (Riemann.Analysis.FiniteWindow.nativePrimeCoefficients N L σ).diagonal i =\n    -2 *\n      ∑ n ∈ Riemann.Analysis.FiniteWindow.primeSurvivors L,\n        Riemann.Analysis.FiniteWindow.primeRealWeight σ n * (1 - Real.log ↑n / L) *\n          Real.cos (Riemann.CCM.Native.frequency L i * Real.log ↑n)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.primeOperator",
+    "kind": "def",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 86,
+    "elaborated_kind": "definition",
+    "type": "(L : ℝ) → ℝ → ↥(Riemann.Analysis.FiniteWindow.Hilbert L) →L[ℂ] ↥(Riemann.Analysis.FiniteWindow.Hilbert L)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.primeInverse",
+    "kind": "def",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 89,
+    "elaborated_kind": "definition",
+    "type": "(L : ℝ) → ℝ → ↥(Riemann.Analysis.FiniteWindow.Hilbert L) →L[ℂ] ↥(Riemann.Analysis.FiniteWindow.Hilbert L)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.prime_negative_logarithmic_derivative",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 107,
+    "elaborated_kind": "theorem",
+    "type": "∀ (L σ : ℝ),\n  -(Riemann.Analysis.FiniteWindow.primeInverse L σ * Riemann.Analysis.FiniteWindow.primeDerivative L σ) =\n    Riemann.Analysis.FiniteWindow.primeCurrent L σ"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.hasDerivAt_primeOperator",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 156,
+    "elaborated_kind": "theorem",
+    "type": "∀ (L σ : ℝ),\n  HasDerivAt (Riemann.Analysis.FiniteWindow.primeOperator L) (Riemann.Analysis.FiniteWindow.primeDerivative L σ) σ"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.primeOperator_euler_product",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 171,
+    "elaborated_kind": "theorem",
+    "type": "∀ (L σ : ℝ),\n  Riemann.Analysis.FiniteWindow.primeOperator L σ =\n    ↑(∏ p ∈ (Riemann.Analysis.FiniteWindow.primeCutoff L + 1).primesBelow,\n        ∑ k ∈ Finset.range (Riemann.Analysis.FiniteWindow.primeCutoff L + 1),\n          (Riemann.Analysis.FiniteWindow.primeWeight L σ) p ^ k)"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.completedOperator_unitExponential",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/CompletedObstruction.lean",
+    "line": 16,
+    "elaborated_kind": "theorem",
+    "type": "∀ (r : ℝ) (hr : 0 < r),\n  Riemann.Analysis.HalfLine.completedOperator (Riemann.Analysis.HalfLine.unitExponential r hr) =\n    ↑(Riemann.Analysis.HalfLine.laplaceIntegral Riemann.Analysis.HalfLine.criticalKernel r) •\n      Riemann.Analysis.HalfLine.unitExponential r hr"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.completed_laplace_tendsto",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/CompletedObstruction.lean",
+    "line": 22,
+    "elaborated_kind": "theorem",
+    "type": "Filter.Tendsto (Riemann.Analysis.HalfLine.laplaceIntegral Riemann.Analysis.HalfLine.criticalKernel) Filter.atTop\n  (nhds 0)"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.completedOperator_not_boundedBelow",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/CompletedObstruction.lean",
+    "line": 27,
+    "elaborated_kind": "theorem",
+    "type": "¬∃ c, 0 < c ∧ ∀ (f : ↥Riemann.Analysis.HalfLine.Hilbert), c * ‖f‖ ≤ ‖Riemann.Analysis.HalfLine.completedOperator f‖"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.polarFactor_kills_rawGraphDefect",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/CompletedObstruction.lean",
+    "line": 90,
+    "elaborated_kind": "theorem",
+    "type": "(ContinuousLinearMap.id ℂ ↥Riemann.Analysis.HalfLine.Hilbert - 2 • Riemann.Analysis.HalfLine.volterra (3 / 2))\n    Riemann.Analysis.HalfLine.rawGraphDefect =\n  0"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.norm_completedOperator_le",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/CompletedOperator.lean",
+    "line": 43,
+    "elaborated_kind": "theorem",
+    "type": "‖Riemann.Analysis.HalfLine.completedOperator‖ ≤ 8 * Real.pi / 3"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.completedOperator_extends_core",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/FiniteRestriction.lean",
+    "line": 15,
+    "elaborated_kind": "theorem",
+    "type": "∀ (f : ↥Riemann.Analysis.HalfLine.compactSupport),\n  Riemann.Analysis.HalfLine.completedOperator ↑f = Riemann.Analysis.HalfLine.completedCore f"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.completedOperator_unique",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/FiniteRestriction.lean",
+    "line": 21,
+    "elaborated_kind": "theorem",
+    "type": "∀ {T : ↥Riemann.Analysis.HalfLine.Hilbert →L[ℂ] ↥Riemann.Analysis.HalfLine.Hilbert},\n  (∀ (f : ↥Riemann.Analysis.HalfLine.compactSupport), T ↑f = Riemann.Analysis.HalfLine.completedCore f) →\n    T = Riemann.Analysis.HalfLine.completedOperator"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.completedOperator_finiteInclusion",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/FiniteRestriction.lean",
+    "line": 29,
+    "elaborated_kind": "theorem",
+    "type": "∀ (L : ℝ),\n  0 < L →\n    ∀ (f : ↥(Riemann.Analysis.FiniteWindow.Hilbert L)),\n      Riemann.Analysis.HalfLine.completedOperator ((Riemann.Analysis.HalfLine.finiteInclusion L) f) =\n        (Riemann.Analysis.HalfLine.finiteInclusion L) ((Riemann.Analysis.FiniteWindow.completedFrame L (1 / 2)) f)"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.completedOperator_supportTruncation_tendsto",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/FiniteRestriction.lean",
+    "line": 56,
+    "elaborated_kind": "theorem",
+    "type": "∀ (f : ↥Riemann.Analysis.HalfLine.Hilbert),\n  Filter.Tendsto\n    (fun n =>\n      (Riemann.Analysis.HalfLine.supportProjection ↑n)\n        (Riemann.Analysis.HalfLine.completedOperator ((Riemann.Analysis.HalfLine.supportProjection ↑n) f)))\n    Filter.atTop (nhds (Riemann.Analysis.HalfLine.completedOperator f))"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.rawEuler_nonclosability_witness",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/RawNonclosability.lean",
+    "line": 21,
+    "elaborated_kind": "theorem",
+    "type": "∃ f,\n  Filter.Tendsto (fun n => ↑(f n)) Filter.atTop (nhds 0) ∧\n    Filter.Tendsto (fun n => Riemann.Analysis.HalfLine.rawEuler (f n)) Filter.atTop\n        (nhds Riemann.Analysis.HalfLine.rawGraphDefect) ∧\n      Riemann.Analysis.HalfLine.rawGraphDefect ≠ 0"
+  },
+  {
+    "name": "Riemann.Analysis.HalfLine.rawEuler_graphClosure_not_singleValued",
+    "kind": "theorem",
+    "source": "Riemann/Analysis/HalfLine/RawNonclosability.lean",
+    "line": 39,
+    "elaborated_kind": "theorem",
+    "type": "¬∀ p ∈ closure Riemann.Analysis.HalfLine.rawEulerGraph,\n    ∀ q ∈ closure Riemann.Analysis.HalfLine.rawEulerGraph, p.1 = q.1 → p.2 = q.2"
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.corrected",
+    "kind": "def",
+    "source": "Riemann/CCM/Correction.lean",
+    "line": 16,
+    "elaborated_kind": "definition",
+    "type": "{E : Type u_1} →\n  [inst : NormedAddCommGroup E] →\n    [inst_1 : InnerProductSpace ℂ E] → [inst_2 : CompleteSpace E] → Riemann.CCM.FullSimpleEvenData E → E →L[ℂ] E"
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.shifted",
+    "kind": "def",
+    "source": "Riemann/CCM/Data.lean",
+    "line": 57,
+    "elaborated_kind": "definition",
+    "type": "{E : Type u_1} →\n  [inst : NormedAddCommGroup E] →\n    [inst_1 : InnerProductSpace ℂ E] → [inst_2 : CompleteSpace E] → Riemann.CCM.FullSimpleEvenData E → E →L[ℂ] E"
+  },
+  {
+    "name": "Riemann.CCM.Native.boundaryCharacteristic",
+    "kind": "def",
+    "source": "Riemann/CCM/FourierCharacteristic.lean",
+    "line": 58,
+    "elaborated_kind": "definition",
+    "type": "{N : ℕ} → ℝ → Riemann.CCM.Native.Section N → ℂ → ℂ"
+  },
+  {
+    "name": "Riemann.CCM.Native.boundaryCharacteristic_at_mode",
+    "kind": "lemma",
+    "source": "Riemann/CCM/FourierCharacteristic.lean",
+    "line": 71,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} {L : ℝ},\n  0 < L →\n    ∀ (v : Riemann.CCM.Native.Section N) (j : Riemann.CCM.Native.Index N),\n      Riemann.CCM.Native.boundaryCharacteristic L v ↑(Riemann.CCM.Native.frequency L j) =\n        (-1) ^ Riemann.CCM.Native.mode j * v.ofLp j / ↑√L"
+  },
+  {
+    "name": "Riemann.CCM.Native.boundaryCharacteristic_outside",
+    "kind": "theorem",
+    "source": "Riemann/CCM/FourierCharacteristic.lean",
+    "line": 160,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} {L : ℝ},\n  0 < L →\n    ∀ (v : Riemann.CCM.Native.Section N),\n      inner ℂ (Riemann.CCM.Native.endpointVector N L) v = 1 →\n        ∀ (k : ℤ),\n          (∀ (i : Riemann.CCM.Native.Index N), Riemann.CCM.Native.mode i ≠ k) →\n            Riemann.CCM.Native.boundaryCharacteristic L v ↑(Riemann.CCM.Native.latticeFrequency L k) = 0"
+  },
+  {
+    "name": "Riemann.CCM.Native.native_boundaryCharacteristic_nonreal",
+    "kind": "theorem",
+    "source": "Riemann/CCM/FourierCharacteristic.lean",
+    "line": 168,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} (C : Riemann.CCM.Native.Coefficients N) (L : ℝ) (hL : 0 < L) (A : Riemann.CCM.Native.GroundAdmission C)\n  {z : ℂ},\n  z.im ≠ 0 → Riemann.CCM.Native.boundaryCharacteristic L (Riemann.CCM.Native.fullData C L hL A).groundVector z ≠ 0"
+  },
+  {
+    "name": "Riemann.CCM.Native.native_boundaryCharacteristic_eq_integral",
+    "kind": "theorem",
+    "source": "Riemann/CCM/FourierCharacteristic.lean",
+    "line": 183,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} (C : Riemann.CCM.Native.Coefficients N) (L : ℝ) (hL : 0 < L) (A : Riemann.CCM.Native.GroundAdmission C)\n  (z : ℂ),\n  Riemann.CCM.Native.boundaryCharacteristic L (Riemann.CCM.Native.fullData C L hL A).groundVector z =\n    (∫ (t : ℝ) in 0..L,\n        Riemann.CCM.Native.fourierFunction L (Riemann.CCM.Native.fullData C L hL A).groundVector t *\n          Complex.exp (-Complex.I * z * (↑t - ↑L / 2))) /\n      ↑L"
+  },
+  {
+    "name": "Riemann.CCM.Native.native_boundaryCharacteristic_entire",
+    "kind": "theorem",
+    "source": "Riemann/CCM/FourierCharacteristic.lean",
+    "line": 192,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} (C : Riemann.CCM.Native.Coefficients N) (L : ℝ) (hL : 0 < L) (A : Riemann.CCM.Native.GroundAdmission C),\n  Differentiable ℂ (Riemann.CCM.Native.boundaryCharacteristic L (Riemann.CCM.Native.fullData C L hL A).groundVector)"
+  },
+  {
+    "name": "Riemann.CCM.Native.integral_fourierFunction_centered",
+    "kind": "theorem",
+    "source": "Riemann/CCM/FourierIntegral.lean",
+    "line": 81,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} {L : ℝ},\n  0 < L →\n    ∀ (v : Riemann.CCM.Native.Section N) (z : ℂ),\n      ∫ (t : ℝ) in 0..L, Riemann.CCM.Native.fourierFunction L v t * Complex.exp (-Complex.I * z * (↑t - ↑L / 2)) =\n        Riemann.CCM.Native.centeredFourierObservation L v z"
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.groundWeight",
+    "kind": "def",
+    "source": "Riemann/CCM/GroundProjector.lean",
+    "line": 41,
+    "elaborated_kind": "definition",
+    "type": "{E : Type u_1} →\n  [inst : NormedAddCommGroup E] →\n    [inst_1 : InnerProductSpace ℂ E] → [inst_2 : CompleteSpace E] → Riemann.CCM.FullSimpleEvenData E → ℝ"
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.groundVector",
+    "kind": "def",
+    "source": "Riemann/CCM/GroundProjector.lean",
+    "line": 56,
+    "elaborated_kind": "definition",
+    "type": "{E : Type u_1} →\n  [inst : NormedAddCommGroup E] →\n    [inst_1 : InnerProductSpace ℂ E] → [inst_2 : CompleteSpace E] → Riemann.CCM.FullSimpleEvenData E → E"
+  },
+  {
+    "name": "Riemann.CCM.Native.fullData",
+    "kind": "def",
+    "source": "Riemann/CCM/NativeData.lean",
+    "line": 30,
+    "elaborated_kind": "definition",
+    "type": "{N : ℕ} →\n  (C : Riemann.CCM.Native.Coefficients N) →\n    (L : ℝ) →\n      0 < L → Riemann.CCM.Native.GroundAdmission C → Riemann.CCM.FullSimpleEvenData (Riemann.CCM.Native.Section N)"
+  },
+  {
+    "name": "Riemann.CCM.Native.native_ground_bright",
+    "kind": "theorem",
+    "source": "Riemann/CCM/NativeData.lean",
+    "line": 60,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} (C : Riemann.CCM.Native.Coefficients N) (L : ℝ),\n  0 < L → ∀ (A : Riemann.CCM.Native.GroundAdmission C), inner ℂ (Riemann.CCM.Native.endpointVector N L) A.ground ≠ 0"
+  },
+  {
+    "name": "Riemann.CCM.Native.native_groundWeight_pos",
+    "kind": "theorem",
+    "source": "Riemann/CCM/NativeData.lean",
+    "line": 64,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} (C : Riemann.CCM.Native.Coefficients N) (L : ℝ) (hL : 0 < L) (A : Riemann.CCM.Native.GroundAdmission C),\n  0 < (Riemann.CCM.Native.fullData C L hL A).groundWeight"
+  },
+  {
+    "name": "Riemann.CCM.Native.native_metric_intertwining",
+    "kind": "theorem",
+    "source": "Riemann/CCM/NativeData.lean",
+    "line": 68,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} (C : Riemann.CCM.Native.Coefficients N) (L : ℝ) (hL : 0 < L) (A : Riemann.CCM.Native.GroundAdmission C),\n  (Riemann.CCM.Native.fullData C L hL A).shifted ∘SL (Riemann.CCM.Native.fullData C L hL A).corrected =\n    ContinuousLinearMap.adjoint (Riemann.CCM.Native.fullData C L hL A).corrected ∘SL\n      (Riemann.CCM.Native.fullData C L hL A).shifted"
+  },
+  {
+    "name": "Riemann.CCM.Native.native_corrected_eigenvalue_real",
+    "kind": "theorem",
+    "source": "Riemann/CCM/NativeData.lean",
+    "line": 74,
+    "elaborated_kind": "theorem",
+    "type": "∀ {N : ℕ} (C : Riemann.CCM.Native.Coefficients N) (L : ℝ) (hL : 0 < L) (A : Riemann.CCM.Native.GroundAdmission C)\n  {x : Riemann.CCM.Native.Section N} {z : ℂ},\n  x ≠ 0 → (Riemann.CCM.Native.fullData C L hL A).corrected x = z • x → z.im = 0"
+  }
+]

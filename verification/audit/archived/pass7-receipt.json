@@ -1,0 +1,66 @@
+{
+  "disposition": "PASS",
+  "source_files": 132,
+  "implementation_modules": 131,
+  "baseline_implementation_modules_unchanged": 111,
+  "new_implementation_modules": 20,
+  "public_named_declarations": 1602,
+  "public_theorem_or_lemma_declarations": 1222,
+  "new_public_named_declarations": 203,
+  "new_public_theorem_or_lemma_declarations": 162,
+  "named_instances": 7,
+  "namespace_declarations": 3240,
+  "namespace_kinds": {
+    "definition": 504,
+    "theorem": 2709,
+    "inductive": 9,
+    "constructor": 9,
+    "recursor": 9
+  },
+  "independent_checkout": "/tmp/riemann-referee-pass7-jeym8miu/formalization",
+  "all_implementation_modules_reachable_from_default_root": true,
+  "project_lake_artifacts_copied": false,
+  "dependency_directories_copied": false,
+  "dependency_retrieval": "lake update into fresh dependency directories; official upstream mathlib cache only",
+  "default_build_command": "ELAN_HOME=/tmp/riemann-fresh-elan /tmp/riemann-fresh-elan/bin/lake build",
+  "default_build_jobs": 3784,
+  "build_warnings": 0,
+  "source_hash_manifest_sha256": "1888958bbc5492250c8a7fc9dd0161f09ba44c717ae29ea8095262b0fa825a68",
+  "build_log_sha256": "e9421ba0a267938589575a8559e80216128d6ac0fc51fc9734ea254b04e8cdf3",
+  "all_namespace_axiom_method": "Lean.collectAxioms on actual environment Names; same transitive collector as builtin #print axioms; includes private project Names",
+  "dependency_revision_count": 9,
+  "axiom_audits": {
+    "axioms": {
+      "count": 1602,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "theorem-axioms": {
+      "count": 1222,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "instance-axioms": {
+      "count": 7,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "environment-axioms": {
+      "count": 3240,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  }
+}

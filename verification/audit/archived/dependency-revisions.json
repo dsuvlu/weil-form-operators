@@ -1,0 +1,56 @@
+[
+  {
+    "name": "mathlib",
+    "expected_revision": "520045ab14e26149ee970e2e617ca04b09bde5d6",
+    "actual_revision": "520045ab14e26149ee970e2e617ca04b09bde5d6",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/mathlib"
+  },
+  {
+    "name": "plausible",
+    "expected_revision": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "actual_revision": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/plausible"
+  },
+  {
+    "name": "LeanSearchClient",
+    "expected_revision": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "actual_revision": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/LeanSearchClient"
+  },
+  {
+    "name": "importGraph",
+    "expected_revision": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "actual_revision": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/importGraph"
+  },
+  {
+    "name": "proofwidgets",
+    "expected_revision": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "actual_revision": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/proofwidgets"
+  },
+  {
+    "name": "aesop",
+    "expected_revision": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "actual_revision": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/aesop"
+  },
+  {
+    "name": "Qq",
+    "expected_revision": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "actual_revision": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/Qq"
+  },
+  {
+    "name": "batteries",
+    "expected_revision": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "actual_revision": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/batteries"
+  },
+  {
+    "name": "Cli",
+    "expected_revision": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "actual_revision": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "fresh_directory": "/tmp/riemann-referee-pass7-jeym8miu/formalization/.lake/packages/Cli"
+  }
+]

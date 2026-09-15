@@ -1,0 +1,8 @@
+import Riemann
+#print axioms Riemann.Analysis.FiniteWindow.primeAlgebra_comm
+#print axioms Riemann.Analysis.FiniteWindow.primeAlgebra_commRing
+#print axioms Riemann.Arithmetic.shiftAlgebra_comm
+#print axioms Riemann.Arithmetic.shiftAlgebra_commRing
+#print axioms Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_finite
+#print axioms Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_complete
+#print axioms Riemann.CCM.FullSimpleEvenData.groundComplementSubmodule_complete

@@ -1,0 +1,13 @@
+verification/.lake/
+verification/audit/latest/
+.venv/
+__pycache__/
+*.py[cod]
+experiments/figures/
+experiments/*diagnostics*.csv
+experiments/*precision*.csv
+.DS_Store
+experiments/.matplotlib-cache/
+VALIDATION.md
+__marimo__/
+experiments/notebooks/exports/

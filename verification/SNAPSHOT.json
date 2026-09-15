@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-13",
+  "implementation_modules": 131,
+  "source_files_including_aggregate": 132,
+  "source_manifest_sha256": "1888958bbc5492250c8a7fc9dd0161f09ba44c717ae29ea8095262b0fa825a68",
+  "evidence_manifest_sha256": "27519d3dfae733c2bee029e0b84a3b0f1526a956e37af625ee6702578d4ad1a8",
+  "aggregate_sha256": "d8f1dac7575c9ad14de6f13c9f357b349a02317dfa3bc7d38205b01fe5ef6706",
+  "configuration_sha256": {
+    "lean-toolchain": "8e3538e0ab5f81a3ee04927d8838c8c674e0e112838b4b3ce87ec218143276af",
+    "lakefile.toml": "a58bd39b1e860ad102e01eec0d286b05699152ca89ca8604ab05bff90687b6cb",
+    "lake-manifest.json": "3d0f03b0799297ef5913bb2235a1575a6f85b0199f736e8e31660e933321602e"
+  },
+  "description": "Exact paper-linked frozen Lean source snapshot, distributed in full."
+}

@@ -1,0 +1,9 @@
+'Riemann.Analysis.FiniteWindow.primeAlgebra_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeAlgebra_commRing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.shiftAlgebra_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.shiftAlgebra_commRing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundComplementSubmodule_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

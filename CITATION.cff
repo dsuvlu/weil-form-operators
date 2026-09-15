@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this repository."
+title: "An operator-theoretic representation of the Weil quadratic form"
+type: software
+authors:
+  - family-names: Suvlu
+    given-names: Dylan
+    orcid: "https://orcid.org/0000-0003-3216-1338"
+    website: "https://dsuvlu.github.io/"
+license: Apache-2.0
+preferred-citation:
+  type: unpublished
+  title: "An operator-theoretic representation of the Weil quadratic form"
+  authors:
+    - family-names: Suvlu
+      given-names: Dylan
+      orcid: "https://orcid.org/0000-0003-3216-1338"
+  year: 2026
+  month: 9
+  date-published: 2026-09-15
+  notes: "paper licensed CC BY 4.0."

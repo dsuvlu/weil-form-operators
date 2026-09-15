@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Riemann.Analysis.FiniteWindow.primeAlgebra_comm",
+    "kind": "instance",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 52,
+    "elaborated_kind": "theorem",
+    "type": "∀ (L : ℝ), IsMulCommutative ↥(Riemann.Analysis.FiniteWindow.primeAlgebra L)"
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.primeAlgebra_commRing",
+    "kind": "instance",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 58,
+    "elaborated_kind": "definition",
+    "type": "(L : ℝ) → CommRing ↥(Riemann.Analysis.FiniteWindow.primeAlgebra L)"
+  },
+  {
+    "name": "Riemann.Arithmetic.shiftAlgebra_comm",
+    "kind": "instance",
+    "source": "Riemann/Arithmetic/MultiplicativeShift.lean",
+    "line": 54,
+    "elaborated_kind": "theorem",
+    "type": "∀ (L : ℝ), IsMulCommutative ↥(Riemann.Arithmetic.shiftAlgebra L)"
+  },
+  {
+    "name": "Riemann.Arithmetic.shiftAlgebra_commRing",
+    "kind": "instance",
+    "source": "Riemann/Arithmetic/MultiplicativeShift.lean",
+    "line": 60,
+    "elaborated_kind": "definition",
+    "type": "(L : ℝ) → CommRing ↥(Riemann.Arithmetic.shiftAlgebra L)"
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_finite",
+    "kind": "instance",
+    "source": "Riemann/CCM/BoundaryHyperplane.lean",
+    "line": 26,
+    "elaborated_kind": "theorem",
+    "type": "∀ {E : Type u_1} [inst : NormedAddCommGroup E] [inst_1 : InnerProductSpace ℂ E] [inst_2 : CompleteSpace E]\n  (M : Riemann.CCM.FullSimpleEvenData E), FiniteDimensional ℂ ↥M.boundaryHyperplane"
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_complete",
+    "kind": "instance",
+    "source": "Riemann/CCM/BoundaryHyperplane.lean",
+    "line": 30,
+    "elaborated_kind": "theorem",
+    "type": "∀ {E : Type u_1} [inst : NormedAddCommGroup E] [inst_1 : InnerProductSpace ℂ E] [inst_2 : CompleteSpace E]\n  (M : Riemann.CCM.FullSimpleEvenData E), CompleteSpace ↥M.boundaryHyperplane"
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.groundComplementSubmodule_complete",
+    "kind": "instance",
+    "source": "Riemann/CCM/GroundComplement.lean",
+    "line": 25,
+    "elaborated_kind": "theorem",
+    "type": "∀ {E : Type u_1} [inst : NormedAddCommGroup E] [inst_1 : InnerProductSpace ℂ E] [inst_2 : CompleteSpace E]\n  (M : Riemann.CCM.FullSimpleEvenData E), CompleteSpace ↥M.groundComplementSubmodule"
+  }
+]

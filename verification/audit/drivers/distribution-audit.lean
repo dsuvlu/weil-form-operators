@@ -1,0 +1,23 @@
+import Riemann
+open Lean Elab Command in
+run_cmd do
+  let env ← getEnv
+  for (name, info) in env.constants.toList do
+    if name.toString.startsWith "Riemann." || name.toString.startsWith "_private.Riemann." then
+      let kind := match info with
+        | .axiomInfo _ => "axiom"
+        | .defnInfo _ => "definition"
+        | .thmInfo _ => "theorem"
+        | .opaqueInfo _ => "opaque"
+        | .quotInfo _ => "quotient"
+        | .inductInfo _ => "inductive"
+        | .ctorInfo _ => "constructor"
+        | .recInfo _ => "recursor"
+      let type ← liftTermElabM do
+        let fmt ← Lean.Meta.ppExpr info.type
+        pure fmt.pretty
+      let axs ← collectAxioms name
+      let row := Json.mkObj [("name", toJson name.toString), ("kind", toJson kind),
+        ("type", toJson type), ("unsafe", toJson info.isUnsafe),
+        ("axioms", toJson (axs.toList.map Name.toString))]
+      logInfo m!"{row.compress}"

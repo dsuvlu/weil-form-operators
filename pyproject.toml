@@ -1,0 +1,17 @@
+[project]
+name = "weil-form-operators"
+version = "0.1.0"
+description = "Numerical experiments and editable playgrounds for Weil form operators"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "numpy==2.2.6",
+    "matplotlib==3.10.9",
+    "mpmath==1.4.1",
+]
+
+[dependency-groups]
+notebooks = ["marimo==0.24.2"]
+
+[tool.uv]
+# This repository runs scripts and notebooks; it is not an installable package.
+package = false

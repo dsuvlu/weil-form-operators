@@ -1,0 +1,10 @@
+Weil form operators
+Copyright 2026 Dylan Suvlu
+
+Original Lean and Python code is distributed under Apache-2.0.
+The paper PDF is distributed separately under CC BY 4.0 (see paper/LICENSE).
+
+The Lean development depends on Lean and mathlib and their pinned dependencies.
+Dependency sources and build caches are not bundled in this repository and
+retain their own licenses. Preserve their notices when redistributing them.
+Mathematical source attribution is retained in source comments and THEOREM_MAP.md.

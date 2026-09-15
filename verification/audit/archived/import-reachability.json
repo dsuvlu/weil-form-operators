@@ -1,0 +1,592 @@
+{
+  "root": "Riemann",
+  "default_targets": [
+    "Riemann"
+  ],
+  "implementation_modules": 131,
+  "reachable_implementation_modules": 131,
+  "direct_import_count": 77,
+  "not_directly_imported": [
+    "Riemann.Analysis.FiniteWindow.ACPrimitive",
+    "Riemann.Analysis.FiniteWindow.CompletedCurrentIdentity",
+    "Riemann.Analysis.FiniteWindow.CompletedFrame",
+    "Riemann.Analysis.FiniteWindow.DirectedGenerator",
+    "Riemann.Analysis.FiniteWindow.GammaBackground",
+    "Riemann.Analysis.FiniteWindow.GammaCurrent",
+    "Riemann.Analysis.FiniteWindow.GammaCurrentConvolution",
+    "Riemann.Analysis.FiniteWindow.GammaCurrentIdentity",
+    "Riemann.Analysis.FiniteWindow.GammaFourierDomain",
+    "Riemann.Analysis.FiniteWindow.GeneratorDomain",
+    "Riemann.Analysis.FiniteWindow.GeneratorOperator",
+    "Riemann.Analysis.FiniteWindow.KilledShiftHilbert",
+    "Riemann.Analysis.FiniteWindow.LiteralSourceColumns",
+    "Riemann.Analysis.FiniteWindow.NativeCompensatedCurrent",
+    "Riemann.Analysis.FiniteWindow.NativeCompletedCoefficients",
+    "Riemann.Analysis.FiniteWindow.NativeFourierHilbert",
+    "Riemann.Analysis.FiniteWindow.NativeFourierShiftBound",
+    "Riemann.Analysis.FiniteWindow.NativeGammaCoefficients",
+    "Riemann.Analysis.FiniteWindow.NativeHermitianShift",
+    "Riemann.Analysis.FiniteWindow.NativeIntegralCoefficients",
+    "Riemann.Analysis.FiniteWindow.NativePolarCoefficients",
+    "Riemann.Analysis.FiniteWindow.NativeShiftEntries",
+    "Riemann.Analysis.FiniteWindow.PolarOperator",
+    "Riemann.Analysis.FiniteWindow.PrimeHilbert",
+    "Riemann.Analysis.FiniteWindow.StrongKernelIntegral",
+    "Riemann.Analysis.FiniteWindow.Volterra",
+    "Riemann.Analysis.GammaCutoffKernel",
+    "Riemann.Analysis.GammaKernel",
+    "Riemann.Arithmetic.EulerSupport",
+    "Riemann.Arithmetic.FiniteEulerProduct",
+    "Riemann.Arithmetic.FiniteSynthesis",
+    "Riemann.Arithmetic.KilledShift",
+    "Riemann.Arithmetic.LogarithmicCurrent",
+    "Riemann.Arithmetic.MultiplicativeShift",
+    "Riemann.Basic.ComplexSinc",
+    "Riemann.Basic.Determinant",
+    "Riemann.Basic.FiniteOperatorParameter",
+    "Riemann.Basic.L1ParameterDerivative",
+    "Riemann.Basic.L2IntegralRepresentative",
+    "Riemann.Basic.MetricSpectrum",
+    "Riemann.Basic.Projector",
+    "Riemann.Basic.RankOne",
+    "Riemann.CCM.BoundaryHyperplane",
+    "Riemann.CCM.BoundaryResolvent",
+    "Riemann.CCM.Brightness",
+    "Riemann.CCM.Correction",
+    "Riemann.CCM.Data",
+    "Riemann.CCM.FourierIntegral",
+    "Riemann.CCM.FourierResolvent",
+    "Riemann.CCM.FourierSection",
+    "Riemann.CCM.GroundProjector",
+    "Riemann.CCM.NativeData",
+    "Riemann.CCM.NativeDeterminant",
+    "Riemann.CCM.WeilMatrix"
+  ],
+  "imports": {
+    "Riemann.Analysis.FiniteWindow.ACPrimitive": [
+      "Riemann.Analysis.FiniteWindow.Volterra",
+      "Riemann.Basic.L2IntegralRepresentative"
+    ],
+    "Riemann.Analysis.FiniteWindow.CompletedCurrent": [
+      "Riemann.Analysis.FiniteWindow.CompletedFrame",
+      "Riemann.Analysis.FiniteWindow.GammaFourierDomain",
+      "Riemann.Analysis.FiniteWindow.SourceGramDerivative"
+    ],
+    "Riemann.Analysis.FiniteWindow.CompletedCurrentIdentity": [
+      "Riemann.Analysis.FiniteWindow.CompletedCurrent",
+      "Riemann.Analysis.FiniteWindow.GammaCurrentIdentity"
+    ],
+    "Riemann.Analysis.FiniteWindow.CompletedFrame": [
+      "Riemann.Analysis.FiniteWindow.GammaOperator",
+      "Riemann.Analysis.FiniteWindow.PrimeHilbert",
+      "Riemann.Analysis.FiniteWindow.PolarOperator",
+      "Riemann.Analysis.FiniteWindow.NativeFourierHilbert"
+    ],
+    "Riemann.Analysis.FiniteWindow.CompletedSourceGram": [
+      "Riemann.Analysis.FiniteWindow.CompletedCurrentIdentity",
+      "Riemann.Analysis.FiniteWindow.SourceGramDerivative",
+      "Riemann.Analysis.FiniteWindow.NativeFourierIsometry"
+    ],
+    "Riemann.Analysis.FiniteWindow.DirectedGenerator": [
+      "Riemann.Analysis.FiniteWindow.Volterra"
+    ],
+    "Riemann.Analysis.FiniteWindow.GammaBackground": [
+      "Riemann.Analysis.FiniteWindow.GammaCurrent"
+    ],
+    "Riemann.Analysis.FiniteWindow.GammaBackgroundForm": [
+      "Riemann.Analysis.FiniteWindow.GammaBackground",
+      "Riemann.Analysis.FiniteWindow.GammaCurrentConvolution"
+    ],
+    "Riemann.Analysis.FiniteWindow.GammaCurrent": [
+      "Riemann.Analysis.FiniteWindow.GammaOperator",
+      "Riemann.Analysis.FiniteWindow.GeneratorOperator"
+    ],
+    "Riemann.Analysis.FiniteWindow.GammaCurrentConvolution": [
+      "Riemann.Analysis.GammaCutoffKernel",
+      "Riemann.Analysis.FiniteWindow.GammaCurrent",
+      "Riemann.Analysis.FiniteWindow.KernelConvolution"
+    ],
+    "Riemann.Analysis.FiniteWindow.GammaCurrentIdentity": [
+      "Riemann.Analysis.GammaCutoffLimit",
+      "Riemann.Analysis.FiniteWindow.GammaCurrentConvolution",
+      "Riemann.Analysis.FiniteWindow.ShiftCommutation"
+    ],
+    "Riemann.Analysis.FiniteWindow.GammaFourierDomain": [
+      "Riemann.Analysis.FiniteWindow.GammaCurrent",
+      "Riemann.Analysis.FiniteWindow.NativeFourierShiftBound"
+    ],
+    "Riemann.Analysis.FiniteWindow.GammaOperator": [
+      "Riemann.Analysis.FiniteWindow.Volterra",
+      "Riemann.Analysis.GammaKernel",
+      "Riemann.Analysis.FiniteWindow.StrongKernelIntegral",
+      "Riemann.Analysis.FiniteWindow.KilledShiftHilbert"
+    ],
+    "Riemann.Analysis.FiniteWindow.GeneratorDomain": [
+      "Riemann.Analysis.FiniteWindow.GeneratorOperator",
+      "Riemann.Analysis.FiniteWindow.ACPrimitive"
+    ],
+    "Riemann.Analysis.FiniteWindow.GeneratorOperator": [
+      "Riemann.Analysis.FiniteWindow.DirectedGenerator"
+    ],
+    "Riemann.Analysis.FiniteWindow.KernelConvolution": [
+      "Riemann.Analysis.FiniteWindow.StrongKernelIntegral",
+      "Riemann.Analysis.FiniteWindow.KilledShiftHilbert"
+    ],
+    "Riemann.Analysis.FiniteWindow.KilledShiftAlgebra": [
+      "Riemann.Analysis.FiniteWindow.KilledShiftHilbert",
+      "Riemann.Arithmetic.KilledShift"
+    ],
+    "Riemann.Analysis.FiniteWindow.KilledShiftHilbert": [],
+    "Riemann.Analysis.FiniteWindow.LiteralSourceColumns": [
+      "Riemann.Analysis.FiniteWindow.CompletedSourceGram",
+      "Riemann.Capacity.BoundaryCorrection"
+    ],
+    "Riemann.Analysis.FiniteWindow.LiteralVolterra": [
+      "Riemann.Analysis.FiniteWindow.ACPrimitive"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeCompensatedCurrent": [
+      "Riemann.Analysis.FiniteWindow.NativeIntegralCoefficients"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeCompletedCoefficients": [
+      "Riemann.Analysis.FiniteWindow.NativeGammaCoefficients",
+      "Riemann.Analysis.FiniteWindow.NativePolarCoefficients"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeFourierHilbert": [
+      "Riemann.Analysis.FiniteWindow.GeneratorDomain",
+      "Riemann.CCM.FourierSection"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeFourierIsometry": [
+      "Riemann.Analysis.FiniteWindow.NativeFourierHilbert",
+      "Riemann.CCM.FourierIntegral"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeFourierShiftBound": [
+      "Riemann.Analysis.FiniteWindow.NativeShiftEntries"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeGammaCoefficients": [
+      "Riemann.Analysis.FiniteWindow.NativeCompensatedCurrent",
+      "Riemann.Analysis.FiniteWindow.CompletedCurrent"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeHermitianShift": [
+      "Riemann.Analysis.FiniteWindow.NativeShiftEntries",
+      "Riemann.CCM.WeilMatrix"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeIntegralCoefficients": [
+      "Riemann.Analysis.FiniteWindow.NativePrimeCoefficients"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativePolarCoefficients": [
+      "Riemann.Analysis.FiniteWindow.NativeCompensatedCurrent",
+      "Riemann.Analysis.FiniteWindow.Volterra"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativePrimeCoefficients": [
+      "Riemann.Analysis.FiniteWindow.NativeHermitianShift",
+      "Riemann.Analysis.FiniteWindow.PrimeHilbert"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeShiftEntries": [
+      "Riemann.Analysis.FiniteWindow.NativeFourierIsometry"
+    ],
+    "Riemann.Analysis.FiniteWindow.NativeSourceWeil": [
+      "Riemann.Analysis.FiniteWindow.LiteralSourceColumns",
+      "Riemann.Analysis.FiniteWindow.NativeCompletedCoefficients",
+      "Riemann.CCM.NativeCapacity"
+    ],
+    "Riemann.Analysis.FiniteWindow.PolarKernel": [
+      "Riemann.Analysis.FiniteWindow.LiteralVolterra",
+      "Riemann.Analysis.FiniteWindow.NativeFourierIsometry",
+      "Riemann.Analysis.FiniteWindow.PolarOperator"
+    ],
+    "Riemann.Analysis.FiniteWindow.PolarOperator": [
+      "Riemann.Basic.FiniteOperatorParameter",
+      "Riemann.Analysis.FiniteWindow.DirectedGenerator"
+    ],
+    "Riemann.Analysis.FiniteWindow.PrimeHilbert": [
+      "Riemann.Basic.FiniteOperatorParameter",
+      "Riemann.Analysis.FiniteWindow.KilledShiftHilbert",
+      "Riemann.Arithmetic.MultiplicativeShift",
+      "Riemann.Arithmetic.FiniteSynthesis",
+      "Riemann.Arithmetic.FiniteEulerProduct"
+    ],
+    "Riemann.Analysis.FiniteWindow.ShiftCommutation": [
+      "Riemann.Analysis.FiniteWindow.PrimeHilbert",
+      "Riemann.Analysis.FiniteWindow.GammaCurrent",
+      "Riemann.Analysis.FiniteWindow.PolarOperator"
+    ],
+    "Riemann.Analysis.FiniteWindow.SourceGramDerivative": [],
+    "Riemann.Analysis.FiniteWindow.StrongKernelIntegral": [],
+    "Riemann.Analysis.FiniteWindow.Volterra": [
+      "Riemann.Analysis.FiniteWindow.KilledShiftHilbert"
+    ],
+    "Riemann.Analysis.GammaCutoffKernel": [
+      "Riemann.Analysis.GammaKernel"
+    ],
+    "Riemann.Analysis.GammaCutoffLimit": [
+      "Riemann.Analysis.GammaCutoffKernel"
+    ],
+    "Riemann.Analysis.GammaKernel": [
+      "Riemann.Basic.L1ParameterDerivative"
+    ],
+    "Riemann.Analysis.HalfLine.ArithmeticKernel": [
+      "Riemann.Analysis.HalfLine.Kernel"
+    ],
+    "Riemann.Analysis.HalfLine.CompactBox": [
+      "Riemann.Analysis.HalfLine.Exponential",
+      "Riemann.Analysis.HalfLine.FiniteSupport"
+    ],
+    "Riemann.Analysis.HalfLine.CompletedCore": [
+      "Riemann.Analysis.HalfLine.RawEuler",
+      "Riemann.Analysis.HalfLine.KernelTranslation",
+      "Riemann.Analysis.FiniteWindow.CompletedFrame"
+    ],
+    "Riemann.Analysis.HalfLine.CompletedKernel": [
+      "Riemann.Analysis.HalfLine.KernelTranslation",
+      "Riemann.Analysis.HalfLine.RawEuler"
+    ],
+    "Riemann.Analysis.HalfLine.CompletedObstruction": [
+      "Riemann.Analysis.HalfLine.CompletedOperator",
+      "Riemann.Analysis.HalfLine.LaplaceObstruction",
+      "Riemann.Analysis.HalfLine.RawBoxScalar"
+    ],
+    "Riemann.Analysis.HalfLine.CompletedOperator": [
+      "Riemann.Analysis.HalfLine.Kernel",
+      "Riemann.Analysis.HalfLine.Volterra"
+    ],
+    "Riemann.Analysis.HalfLine.Exponential": [
+      "Riemann.Analysis.HalfLine.Hilbert"
+    ],
+    "Riemann.Analysis.HalfLine.FiniteRestriction": [
+      "Riemann.Analysis.HalfLine.CompletedKernel",
+      "Riemann.Analysis.HalfLine.CompletedCore"
+    ],
+    "Riemann.Analysis.HalfLine.FiniteSupport": [
+      "Riemann.Analysis.HalfLine.Hilbert"
+    ],
+    "Riemann.Analysis.HalfLine.Hilbert": [
+      "Riemann.Analysis.FiniteWindow.KilledShiftHilbert"
+    ],
+    "Riemann.Analysis.HalfLine.InverseSqrtSum": [],
+    "Riemann.Analysis.HalfLine.Kernel": [],
+    "Riemann.Analysis.HalfLine.KernelTranslation": [
+      "Riemann.Analysis.HalfLine.ArithmeticKernel",
+      "Riemann.Analysis.HalfLine.CompletedOperator"
+    ],
+    "Riemann.Analysis.HalfLine.LaplaceObstruction": [
+      "Riemann.Analysis.HalfLine.Exponential"
+    ],
+    "Riemann.Analysis.HalfLine.RawBoxArithmetic": [
+      "Riemann.Analysis.HalfLine.CompactBox",
+      "Riemann.Analysis.HalfLine.RawBoxScalar",
+      "Riemann.Analysis.HalfLine.RawEuler"
+    ],
+    "Riemann.Analysis.HalfLine.RawBoxConvergence": [
+      "Riemann.Analysis.HalfLine.CompactBox",
+      "Riemann.Analysis.HalfLine.CompletedObstruction"
+    ],
+    "Riemann.Analysis.HalfLine.RawBoxScalar": [
+      "Riemann.Analysis.HalfLine.InverseSqrtSum"
+    ],
+    "Riemann.Analysis.HalfLine.RawEuler": [
+      "Riemann.Analysis.HalfLine.FiniteSupport",
+      "Riemann.Analysis.FiniteWindow.PrimeHilbert"
+    ],
+    "Riemann.Analysis.HalfLine.RawNonclosability": [
+      "Riemann.Analysis.HalfLine.RawBoxArithmetic",
+      "Riemann.Analysis.HalfLine.RawBoxConvergence"
+    ],
+    "Riemann.Analysis.HalfLine.Volterra": [
+      "Riemann.Analysis.HalfLine.FiniteSupport",
+      "Riemann.Analysis.FiniteWindow.StrongKernelIntegral",
+      "Riemann.Analysis.FiniteWindow.DirectedGenerator"
+    ],
+    "Riemann.Arithmetic.EulerSupport": [],
+    "Riemann.Arithmetic.FiniteEulerProduct": [
+      "Riemann.Arithmetic.EulerSupport"
+    ],
+    "Riemann.Arithmetic.FiniteSynthesis": [],
+    "Riemann.Arithmetic.KilledShift": [],
+    "Riemann.Arithmetic.LogarithmicCurrent": [
+      "Riemann.Arithmetic.FiniteSynthesis"
+    ],
+    "Riemann.Arithmetic.MultiplicativeShift": [
+      "Riemann.Arithmetic.KilledShift"
+    ],
+    "Riemann.Arithmetic.NativeFiniteArithmetic": [
+      "Riemann.Arithmetic.MultiplicativeShift",
+      "Riemann.Arithmetic.LogarithmicCurrent",
+      "Riemann.Arithmetic.FiniteEulerProduct"
+    ],
+    "Riemann.Basic.ComplexSinc": [],
+    "Riemann.Basic.Determinant": [],
+    "Riemann.Basic.ErrorEnergy": [
+      "Riemann.Basic.RankOne"
+    ],
+    "Riemann.Basic.FiniteOperatorParameter": [],
+    "Riemann.Basic.L1ParameterDerivative": [],
+    "Riemann.Basic.L2IntegralRepresentative": [],
+    "Riemann.Basic.MatrixPencilCalculus": [],
+    "Riemann.Basic.MetricSpectrum": [],
+    "Riemann.Basic.PhysicalMass": [
+      "Riemann.Basic.PositiveCompression"
+    ],
+    "Riemann.Basic.PositiveCompression": [
+      "Riemann.Basic.PositiveGalerkin"
+    ],
+    "Riemann.Basic.PositiveGalerkin": [
+      "Riemann.Basic.MetricSpectrum"
+    ],
+    "Riemann.Basic.PositivePencilDiagonalization": [],
+    "Riemann.Basic.PositiveSchur": [
+      "Riemann.Basic.PositiveGalerkin"
+    ],
+    "Riemann.Basic.PositiveSchurCoordinates": [
+      "Riemann.Basic.PositiveSchur"
+    ],
+    "Riemann.Basic.PositiveSchurTransitivity": [
+      "Riemann.Basic.PositiveSchur"
+    ],
+    "Riemann.Basic.Projector": [
+      "Riemann.Basic.RankOne"
+    ],
+    "Riemann.Basic.RankOne": [],
+    "Riemann.Basic.RealMatrixComplexification": [],
+    "Riemann.CCM.BoundaryHyperplane": [
+      "Riemann.CCM.GroundComplement"
+    ],
+    "Riemann.CCM.BoundaryResolvent": [
+      "Riemann.CCM.BoundaryHyperplane",
+      "Riemann.Basic.PositiveGalerkin"
+    ],
+    "Riemann.CCM.BoundarySchur": [
+      "Riemann.CCM.BoundaryWeyl",
+      "Riemann.Basic.PositiveSchurTransitivity"
+    ],
+    "Riemann.CCM.BoundaryWeyl": [
+      "Riemann.CCM.BoundaryResolvent",
+      "Riemann.CCM.FourierCharacteristic"
+    ],
+    "Riemann.CCM.Brightness": [
+      "Riemann.CCM.Data"
+    ],
+    "Riemann.CCM.CharacteristicSlope": [
+      "Riemann.CCM.LatticeTail",
+      "Riemann.CCM.InverseEnergyTrace"
+    ],
+    "Riemann.CCM.ConstantModeExample": [
+      "Riemann.CCM.Brightness"
+    ],
+    "Riemann.CCM.Correction": [
+      "Riemann.CCM.GroundProjector",
+      "Riemann.Basic.Projector"
+    ],
+    "Riemann.CCM.Data": [],
+    "Riemann.CCM.FiniteCapacityDictionary": [
+      "Riemann.CCM.NativeLatticeMean",
+      "Riemann.CCM.NativeHighLowChart",
+      "Riemann.Capacity.FullDecomposition"
+    ],
+    "Riemann.CCM.FourierCharacteristic": [
+      "Riemann.CCM.FourierResolvent",
+      "Riemann.CCM.FourierIntegral",
+      "Riemann.CCM.NativeDeterminant"
+    ],
+    "Riemann.CCM.FourierIntegral": [
+      "Riemann.CCM.FourierSection",
+      "Riemann.Basic.ComplexSinc"
+    ],
+    "Riemann.CCM.FourierResolvent": [
+      "Riemann.CCM.FourierSection",
+      "Riemann.Basic.Determinant"
+    ],
+    "Riemann.CCM.FourierSection": [
+      "Riemann.Basic.RankOne"
+    ],
+    "Riemann.CCM.GroundComplement": [
+      "Riemann.CCM.Spectrum"
+    ],
+    "Riemann.CCM.GroundProjector": [
+      "Riemann.CCM.Brightness",
+      "Riemann.Basic.Projector"
+    ],
+    "Riemann.CCM.InverseEnergy": [
+      "Riemann.Basic.MatrixPencilCalculus"
+    ],
+    "Riemann.CCM.InverseEnergyCapacity": [
+      "Riemann.CCM.InverseEnergyIntegration",
+      "Riemann.Basic.PositivePencilDiagonalization",
+      "Riemann.Capacity.ScalarLogBounds"
+    ],
+    "Riemann.CCM.InverseEnergyCharacteristic": [
+      "Riemann.CCM.OddGroundResponse",
+      "Riemann.CCM.FourierCharacteristic"
+    ],
+    "Riemann.CCM.InverseEnergyIntegration": [
+      "Riemann.CCM.InverseEnergyTrace"
+    ],
+    "Riemann.CCM.InverseEnergyTrace": [
+      "Riemann.CCM.InverseEnergy"
+    ],
+    "Riemann.CCM.LatticeTail": [
+      "Riemann.CCM.FourierCharacteristic"
+    ],
+    "Riemann.CCM.NativeCapacity": [
+      "Riemann.CCM.PositiveOddCapacity"
+    ],
+    "Riemann.CCM.NativeData": [
+      "Riemann.CCM.WeilMatrix",
+      "Riemann.CCM.GroundComplement"
+    ],
+    "Riemann.CCM.NativeDeterminant": [
+      "Riemann.CCM.NativeData",
+      "Riemann.CCM.FourierResolvent"
+    ],
+    "Riemann.CCM.NativeGraph": [
+      "Riemann.Basic.PositiveSchurCoordinates",
+      "Riemann.CCM.PositiveOddCapacity",
+      "Riemann.Capacity.FullDecomposition"
+    ],
+    "Riemann.CCM.NativeHighCoordinateDictionary": [
+      "Riemann.CCM.NativeHighCoordinateEquiv",
+      "Riemann.Basic.RealMatrixComplexification",
+      "Riemann.Capacity.SoftMeanGeometry"
+    ],
+    "Riemann.CCM.NativeHighCoordinateEquiv": [
+      "Riemann.CCM.NativeInverseEnergy",
+      "Riemann.CCM.NativeCapacity"
+    ],
+    "Riemann.CCM.NativeHighLowChart": [
+      "Riemann.CCM.NativeHighCoordinateEquiv",
+      "Riemann.CCM.NativeGraph",
+      "Riemann.CCM.NativeHighCoordinateDictionary"
+    ],
+    "Riemann.CCM.NativeInverseEnergy": [
+      "Riemann.CCM.PositiveOddCapacity",
+      "Riemann.CCM.InverseEnergyCapacity"
+    ],
+    "Riemann.CCM.NativeLatticeMean": [
+      "Riemann.CCM.CharacteristicSlope",
+      "Riemann.CCM.NativeInverseEnergy",
+      "Riemann.CCM.InverseEnergyCharacteristic"
+    ],
+    "Riemann.CCM.NativeSourceEnergyEquiv": [
+      "Riemann.CCM.NativeHighCoordinateDictionary"
+    ],
+    "Riemann.CCM.OddGroundResponse": [
+      "Riemann.CCM.NativeHighCoordinateEquiv",
+      "Riemann.Basic.RealMatrixComplexification"
+    ],
+    "Riemann.CCM.PositiveOddCapacity": [
+      "Riemann.CCM.BoundaryWeyl",
+      "Riemann.Capacity.BoundaryCorrection"
+    ],
+    "Riemann.CCM.Spectrum": [
+      "Riemann.CCM.Correction",
+      "Riemann.Basic.MetricSpectrum"
+    ],
+    "Riemann.CCM.WeilMatrix": [
+      "Riemann.CCM.FourierSection"
+    ],
+    "Riemann.Capacity.BoundaryCorrection": [
+      "Riemann.Capacity.SoftMean"
+    ],
+    "Riemann.Capacity.FullDecomposition": [
+      "Riemann.Capacity.SoftMeanGeometry",
+      "Riemann.Capacity.HighGraph"
+    ],
+    "Riemann.Capacity.HighGraph": [
+      "Riemann.Basic.PositiveSchurTransitivity",
+      "Riemann.Basic.RankOne"
+    ],
+    "Riemann.Capacity.RankOneCoupling": [
+      "Riemann.Capacity.FullDecomposition"
+    ],
+    "Riemann.Capacity.ScalarLogBounds": [],
+    "Riemann.Capacity.SoftMean": [
+      "Riemann.Basic.PositiveCompression"
+    ],
+    "Riemann.Capacity.SoftMeanGeometry": [
+      "Riemann.Capacity.SoftMean",
+      "Riemann.Basic.PositiveSchur"
+    ],
+    "Riemann.Source.MinimumNorm": [
+      "Riemann.Basic.Projector"
+    ],
+    "Riemann": [
+      "Riemann.Analysis.FiniteWindow.GammaBackgroundForm",
+      "Riemann.Analysis.FiniteWindow.NativeSourceWeil",
+      "Riemann.Analysis.GammaCutoffLimit",
+      "Riemann.Analysis.FiniteWindow.NativePrimeCoefficients",
+      "Riemann.Analysis.FiniteWindow.ShiftCommutation",
+      "Riemann.Analysis.FiniteWindow.PolarKernel",
+      "Riemann.Analysis.FiniteWindow.CompletedSourceGram",
+      "Riemann.Analysis.FiniteWindow.CompletedCurrent",
+      "Riemann.Arithmetic.NativeFiniteArithmetic",
+      "Riemann.Basic.PositiveGalerkin",
+      "Riemann.CCM.BoundaryWeyl",
+      "Riemann.Basic.ErrorEnergy",
+      "Riemann.Source.MinimumNorm",
+      "Riemann.CCM.Spectrum",
+      "Riemann.CCM.ConstantModeExample",
+      "Riemann.CCM.GroundComplement",
+      "Riemann.CCM.FourierCharacteristic",
+      "Riemann.Basic.MatrixPencilCalculus",
+      "Riemann.Basic.PhysicalMass",
+      "Riemann.Basic.PositiveCompression",
+      "Riemann.Basic.PositivePencilDiagonalization",
+      "Riemann.Basic.PositiveSchur",
+      "Riemann.Basic.PositiveSchurTransitivity",
+      "Riemann.CCM.BoundarySchur",
+      "Riemann.CCM.InverseEnergy",
+      "Riemann.CCM.InverseEnergyCapacity",
+      "Riemann.CCM.InverseEnergyIntegration",
+      "Riemann.CCM.InverseEnergyTrace",
+      "Riemann.CCM.NativeCapacity",
+      "Riemann.CCM.PositiveOddCapacity",
+      "Riemann.Capacity.BoundaryCorrection",
+      "Riemann.Capacity.FullDecomposition",
+      "Riemann.Capacity.HighGraph",
+      "Riemann.Capacity.ScalarLogBounds",
+      "Riemann.Capacity.SoftMean",
+      "Riemann.Capacity.SoftMeanGeometry",
+      "Riemann.Basic.PositiveSchurCoordinates",
+      "Riemann.CCM.NativeGraph",
+      "Riemann.Capacity.RankOneCoupling",
+      "Riemann.CCM.NativeInverseEnergy",
+      "Riemann.Basic.RealMatrixComplexification",
+      "Riemann.CCM.CharacteristicSlope",
+      "Riemann.CCM.FiniteCapacityDictionary",
+      "Riemann.CCM.InverseEnergyCharacteristic",
+      "Riemann.CCM.LatticeTail",
+      "Riemann.CCM.NativeHighCoordinateDictionary",
+      "Riemann.CCM.NativeHighCoordinateEquiv",
+      "Riemann.CCM.NativeHighLowChart",
+      "Riemann.CCM.NativeLatticeMean",
+      "Riemann.CCM.NativeSourceEnergyEquiv",
+      "Riemann.CCM.OddGroundResponse",
+      "Riemann.Analysis.FiniteWindow.KilledShiftAlgebra",
+      "Riemann.Analysis.FiniteWindow.LiteralVolterra",
+      "Riemann.Analysis.FiniteWindow.NativeFourierIsometry",
+      "Riemann.Analysis.FiniteWindow.GammaOperator",
+      "Riemann.Analysis.FiniteWindow.KernelConvolution",
+      "Riemann.Analysis.FiniteWindow.SourceGramDerivative",
+      "Riemann.Analysis.HalfLine.ArithmeticKernel",
+      "Riemann.Analysis.HalfLine.CompactBox",
+      "Riemann.Analysis.HalfLine.CompletedCore",
+      "Riemann.Analysis.HalfLine.CompletedKernel",
+      "Riemann.Analysis.HalfLine.CompletedObstruction",
+      "Riemann.Analysis.HalfLine.CompletedOperator",
+      "Riemann.Analysis.HalfLine.Exponential",
+      "Riemann.Analysis.HalfLine.FiniteRestriction",
+      "Riemann.Analysis.HalfLine.FiniteSupport",
+      "Riemann.Analysis.HalfLine.Hilbert",
+      "Riemann.Analysis.HalfLine.InverseSqrtSum",
+      "Riemann.Analysis.HalfLine.Kernel",
+      "Riemann.Analysis.HalfLine.KernelTranslation",
+      "Riemann.Analysis.HalfLine.LaplaceObstruction",
+      "Riemann.Analysis.HalfLine.RawBoxArithmetic",
+      "Riemann.Analysis.HalfLine.RawBoxConvergence",
+      "Riemann.Analysis.HalfLine.RawBoxScalar",
+      "Riemann.Analysis.HalfLine.RawEuler",
+      "Riemann.Analysis.HalfLine.RawNonclosability",
+      "Riemann.Analysis.HalfLine.Volterra"
+    ]
+  },
+  "all_reachable": true
+}

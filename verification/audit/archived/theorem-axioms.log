@@ -1,0 +1,1570 @@
+'Riemann.Analysis.absolutelyContinuous_lipschitz_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.complex_integral_absolutelyContinuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integrable_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.terminalPrimitive_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.terminalPrimitive_absolutelyContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.terminalPrimitive_ae_hasDerivAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.integrable_cut_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_zero_ae_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.translated_integral_eq_terminalPrimitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_zero_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.ac_terminal_eq_neg_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedCurrent_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedFrame_mem_currentDomain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedCurrentForm_hermitian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeCurrentInclusion_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.completed_polar_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedDerivative_eq_neg_frame_current' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedFrame_commute_volterra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedFrame_commute_primeCurrent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedCurrent_frame_eq_neg_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_completedFrame_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedFrame_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.polarOperator_commute_volterra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedFrame_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedFrame_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.range_completedFrame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedRangeEquiv_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedFrame_completedSource' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedSource_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.mem_completedFrame_range_iff_ac' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedFrame_nativeCompletedSource' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_completedSourceGram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.completedSourceGram_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_completedColumnGram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeCompletedSourceGram_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_completedSourceGram_current' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_completedColumnGram_current' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_literalSourceGram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_nativeCompletedSourceGram_current' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.HasGenerator.orbit_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.HasGenerator.orbit_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.HasGenerator.eq_neg_volterra_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasGenerator_volterra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasGenerator_iff_eq_neg_volterra_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.HasGenerator.unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.HasGenerator.volterra_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_resolvent_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.tanh_half_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaConstant_sub_native' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_log_logistic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integral_logistic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gamma_background_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gamma_logistic_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeGammaIntegrand_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integrable_logistic_current' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeGammaIntegrand_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaCurrent_native_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaRemainder_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaRemainder_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaWeight_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaIntegrand_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaIntegrand_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.HasGenerator.norm_shift_sub_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.continuousOn_gammaIntegrand' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.HasGenerator.mem_gammaCurrentDomain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.generatorDomain_le_gammaCurrentDomain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaTruncated_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaTruncated_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaIntegrand_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaResolventKernel_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaPositiveKernel_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaResolventKernel_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaPositiveKernel_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaResolventKernel_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaPositiveKernel_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gamma_kernel_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gamma_kernel_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaIntegrand_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.continuousOn_gammaWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaTruncated_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integral_gammaResolventKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integral_gammaPositiveKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gamma_convolution_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaTruncated_volterra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integrableOn_real_kernel_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_real_kernel_shift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gamma_cutoff_action_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gamma_limiting_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaCurrent_volterra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaOperator_half_mem_gammaCurrentDomain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaCurrent_gammaOperator_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaOperator_half_gammaCurrent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaWeight_sqrt_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.mem_gammaCurrentDomain_of_sqrt_modulus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierHilbert_mem_gammaCurrentDomain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_gammaOperator_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaOperator_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaDerivative_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaOperator_half_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaOperator_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasGenerator_iff_hasACDerivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.mem_generatorDomain_iff_ac' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.generator_hasACDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.mem_generatorDomain_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.generator_hasGenerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.generator_eq_of_hasGenerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.isClosed_generator_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.range_volterra_eq_generatorDomain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterraToDomain_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.generator_volterra_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_generator_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.shift_volterra_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.orbitIntegral_eq_volterra_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.dense_generatorDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integrable_scalar_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integral_shift_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.killedShift_agrees_algebraic_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.cut_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.cut_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.cut_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_cut_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.cutCLM_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.cut_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.mem_supported_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.cut_mem_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.projection_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.projection_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.translate_eq_vadd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.translate_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_killedShift_apply_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.supported_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.killedShift_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.killedShift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.killedShift_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.killedShift_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_killedShift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.continuous_killedShift_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.shift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.shift_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.shift_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_shift_apply_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_shift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.continuous_shift_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.literalSourceColumns_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.frame_literalSourceColumns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.literalColumnMetric_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.literalColumnMetric_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_literalColumnMetric_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.native_endpointCorrectedColumns_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_literalColumnMatrix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.integrable_weighted_cut_translation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_ae_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weighted_translated_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.compensatedShift_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierInclusion_adjoint_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.compensatedOrbit_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.compensatedShift_entry_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.compensatedCoefficients_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.compensatedIntegral_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.compensatedIntegral_weilOperator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeCompletedCompression_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeCompleted_weilOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeCompletedCurrent_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.memLp_cut_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.ofContinuous_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.continuous_nativeFourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.contDiff_nativeFourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierHilbert_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierInclusion_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_nativeFourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeFourier_hasGenerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.inner_ofContinuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integral_frequency_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integral_fourier_summands' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integral_fourier_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierHilbert_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierIsometry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_fourier_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_nativeMode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_killed_fourier_single_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_killed_fourier_single_sub_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierHilbert_eq_sum_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_killed_fourier_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierShiftConstant_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_killed_fourier_sub_le_sqrt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_shift_fourier_sub_le_sqrt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gamma_compensated_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeGammaCompression_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeGamma_weilOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeGammaCoefficients_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeGammaCoefficients_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierShiftCompression_entry_offDiagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierShiftCompression_symmetric_entries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.adjoint_single_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.re_div_I_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hermitianShift_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeOperator_ext_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hermitianShift_weilOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weilMatrix_integralCoefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.integrable_weilMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integrable_coefficients_of_entries' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.weilOperator_scalarCoefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.weilMatrix_addCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weilMatrix_scaleCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weilOperator_addCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weilOperator_scaleCoefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.realVolterra_compensatedOrbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.realVolterra_compensated_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.realVolterra_compression_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeRealVolterra_weilOperator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativePolar_weilOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeRealVolterraCoefficients_beta' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeRealVolterraCoefficients_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeCompression_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeCompression_killedShift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weilMatrix_sumCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weilOperator_sumCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeCurrent_sum_survivors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativeCompression_primeCurrent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativePrime_weilOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativePrimeCoefficients_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.nativePrimeCoefficients_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.inner_ofContinuous_killedShift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierFunction_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierShiftCompression_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierShiftCompression_entry_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierShiftCompression_entry_explicit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.fourierShiftCompression_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_nativeSourceWeil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_literalColumnMetric_weil' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.native_columnEnergy_sourceDerivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_literalColumnMatrix_weil' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.native_columnEnergy_sourceMatrix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.native_correctedEnergy_sourceMatrix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.continuous_tailIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.integral_tail_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.continuous_volterraRepresentative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterraRepresentative_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_ofContinuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterraRepresentative_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.inner_volterra_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.polarKernel_cosh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.polarKernel_separable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.inner_polarVolterra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.resolventFactor_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.resolventFactor_inverse_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.polarOperator_mul_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.polarInverse_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_polarOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.resolventFactor_mul_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.resolventFactor_commute_resolvent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.polarDerivative_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.polar_negative_logarithmic_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.polar_current_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeShift_killed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeWeight_killed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeCutoff_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeInverse_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeOperator_mul_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.prime_negative_logarithmic_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeWeight_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.prime_synthesis_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeOperator_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeDerivative_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.hasDerivAt_primeOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeOperator_euler_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.shift_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_commute_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeAlgebra_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeOperator_commute_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeOperator_commute_volterra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeCurrent_commute_volterra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeCurrent_commute_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeOperator_commute_current' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.primeDerivative_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.kernelOperator_commute_of_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaOperator_commute_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaDerivative_commute_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaOperator_commute_volterra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaDerivative_commute_volterra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaDerivative_commute_primeOperator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.polarOperator_commute_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaIntegrand_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.map_mem_gammaCurrentDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.gammaCurrent_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.currentForm_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.hasDerivAt_frozenSourceGram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.hasDerivAt_frozenSourceGram_current' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.hasDerivAt_frozenSourceColumnGram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.norm_apply_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.integrable_kernel_orbit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.norm_integral_kernel_orbit_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.kernelOperator_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.norm_kernelOperator_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.integration_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.norm_integration_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.hasDerivAt_integration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.StrongContractionFamily.kernelOperator_commute' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.FiniteWindow.continuous_weightedOrbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_weightedOrbit_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_volterra_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.volterra_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.norm_volterra_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weightedOrbit_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.weightedOrbit_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.shift_weightedOrbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.FiniteWindow.shift_volterra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.hasDerivAt_half_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.hasDerivAt_logPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.continuousOn_inverse_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.integral_inverse_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.integral_scalar_subtraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.cutoffCurrentKernel_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.cutoffCurrentKernel_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.limitingCurrentKernel_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.logMajorant_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.abs_log_base_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.logMajorant_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.log_base_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.log_base_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.norm_limitingCurrentKernel_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.norm_cutoffCurrentKernel_sub_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.measurable_limitingCurrentKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.measurable_cutoffCurrentKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.limitingCurrentKernel_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.cutoffCurrentKernel_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.cutoffCurrentKernel_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.tendsto_integral_norm_cutoffCurrentKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.alpha_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.prefactor_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.base_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.kernel_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.hasDerivAt_alpha' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.hasDerivAt_prefactor_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.base_arg_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.base_arg_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.hasDerivAt_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.hasDerivAt_kernel_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.base_arg_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.base_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.base_le_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.abs_log_le_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.norm_baseDerivative_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.majorant_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.majorant_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.norm_base_le_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.continuousOn_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.continuousOn_baseDerivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.GammaCompletion.base_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.baseDerivative_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.coe_baseL1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.coe_baseDerivativeL1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.hasDerivAt_baseL1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.hasDerivAt_kernelL1_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.coe_kernelL1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.coe_criticalDerivativeL1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.differentiableAt_prefactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.GammaCompletion.differentiableAt_kernelL1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.weighted_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.arithmeticKernelTerm_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.arithmeticKernelTerm_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.arithmeticKernelTerm_of_count_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.sum_arithmeticKernelTerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_sq_eq_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.boxFunction_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.boxVector_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.boxVector_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.boxVector_mem_compactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_boxVector_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_boxVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.critical_first_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.critical_second_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.critical_factor_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedCore_eq_smoothing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedCore_finiteInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.smoothingOperator_rawPartialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_finite_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_eq_smoothed_rawEuler' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_unitExponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completed_laplace_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_not_boundedBelow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.volterra_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawGraphDefect_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawGraphDefect_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.volterra_rawGraphDefect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.polarFactor_kills_rawGraphDefect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.polarPrefactor_kills_rawGraphDefect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.integrable_completed_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_apply_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_completedOperator_le_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_completedOperator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.exponentialFunction_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.exponentialFunction_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.exponentialFunction_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.exponential_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_exponential_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.shift_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_unitExponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.shift_unitExponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_extends_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_finiteInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_preserves_finiteSupport' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.supportProjection_completedOperator_supportProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.completedOperator_supportTruncation_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.finite_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.finiteInclusion_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.finiteProjection_inclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.supportProjection_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.supportProjection_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_supportProjection_apply_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_supportProjection_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.killedShift_finiteInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.shift_finiteInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.shift_finiteInclusion_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.finite_support_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.finiteCoreInclusion_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.compactSupport_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.ambient_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.supportProjection_sub_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.supportProjection_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.compactSupport_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.cut_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.cut_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.cut_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_cut_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.cutCLM_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.cut_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.mem_supported_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.cut_mem_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.projection_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.projection_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.supported_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_killedShift_apply_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.killedShift_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.killedShift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.killedShift_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_killedShift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.continuous_killedShift_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.shift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.shift_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_shift_apply_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_shift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.continuous_shift_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.sqrt_increment_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.sqrt_increment_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.sqrt_short_increment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.inv_sqrt_sum_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.inv_sqrt_sum_real_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.arithmeticCount_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.exp_lt_arithmeticCount_add_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.criticalKernel_of_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.criticalKernel_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.sum_positive_integers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.sum_positive_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.criticalKernel_arithmetic_sums' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.abs_criticalKernel_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.criticalKernel_eq_fract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integrable_kernel_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integral_kernel_majorant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.criticalKernel_integrableOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integral_abs_criticalKernel_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.criticalKernel_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.criticalKernel_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integral_abs_criticalKernel_global_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.criticalKernelL1_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_criticalKernelL1_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integrable_scalar_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.smoothingKernel_eq_volterra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integrable_smoothingKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.volterra_apply_global' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.smoothingOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integral_shift_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.smoothingOperator_raw_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integrable_arithmeticKernelTerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.sum_arithmeticKernelTerm_Ioc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.laplaceIntegral_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.strongIntegral_unitExponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.not_boundedBelow_of_strongIntegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.rawWeight_inv_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.mem_box_indices_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.box_indices_subset_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.raw_box_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_box_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.boxVector_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.raw_error_majorant_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawBoxVectors_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawBoxScalar_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.graphDefectScalar_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.box_main_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawBoxScalar_main_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawBoxScalar_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawBoxScalar_error_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawBoxScalar_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawWeight_eq_complexExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawPartialSum_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawPartialSum_finiteInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawPartialSum_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawPartialSum_witness_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_eq_partialSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_finiteInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.ambient_finset_sum_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawPartialSum_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_box_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_nonclosability_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_graphClosure_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_graphClosure_not_singleValued' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_graphClosure_not_linearGraph' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Analysis.HalfLine.rawEuler_no_bounded_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integrable_volterraKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.volterraKernelL1_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_volterraKernelL1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.norm_volterra_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.integrable_volterra_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.volterra_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.volterra_finiteInclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.operator_ext_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.volterra_resolvent_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.HalfLine.volterra_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.factorial_primeFactors_eq_primesBelow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.sum_factorial_divisors_eq_Ioc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nonzero_prime_power_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.prime_geometric_sum_eq_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.multiplicativeCoefficients_isMultiplicative' depends on axioms: [propext]
+'Riemann.Arithmetic.divisorSum_eulerFactorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.primeWeight_pow_eq_zero' depends on axioms: [propext]
+'Riemann.Arithmetic.primeEulerFactor_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.primeEulerFactor_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.finiteEuler_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.finiteEuler_denominator_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.twist_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.twist_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.synthesis_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.synthesis_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.synthesis_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.eulerSynthesis_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.moebiusInverse_mul_eulerSynthesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.eulerSynthesis_mul_moebiusInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.logarithmicCurrent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.killedShift_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.killedShift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.killedShift_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.killedShift_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.killedShift_commute' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.coefficientDerivative_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.coefficientDerivative_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.coefficientDerivative_zeta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.eulerCoefficientDerivative_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.natLog_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.natLog_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.natLog_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.multiplicativeShift_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.multiplicativeShift_killed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.multiplicativeShift_killed_of_exp_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.shiftCharacter_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.arithmeticBound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.weightedShift_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.weightedShift_killed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.weightedShift_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativeEuler_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativeMoebius_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativeMoebius_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.native_logarithmicCurrent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.synthesis_weightedShift_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativeMoebius_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativeMangoldtCurrent_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativeEuler_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativePrimeFactor_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativePrimeFactor_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativePrimeFactor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativePrimeFactor_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Arithmetic.nativeEuler_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complexSinc_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complexSinc_of_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.mul_complexSinc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complexSinc_eq_dslope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.differentiable_complexSinc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complexSinc_ne_zero_of_im_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complexSinc_int_mul_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complex_sin_add_int_mul_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complex_sin_sub_int_mul_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.columnRow_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.determinant_add_columnRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.determinant_sub_columnRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.correctedMatrix_determinant_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.inner_error_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.error_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_operator_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_operator_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_operator_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_L1_of_dominated_lip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_L1_of_dominated_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Analysis.integral_L2_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_matrixPencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_inverseMatrixPencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.matrixContraction_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_inverseContraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hasDerivAt_doubleInverseContraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.continuousAt_tripleInverseContraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.positive_energy_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.positive_energy_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.positive_energy_pos_on_kernel_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.metricSymmetric_eigenvalue_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.columnMass_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.columnMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.columnMassSqrt_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.columnMassSqrt_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.columnMassSqrt_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.columnMassSqrtEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.whitenedColumns_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.whitenedColumns_reconstruct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.raw_whitened_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.raw_physical_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.raw_short_whitened' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.physicalCompression_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.physicalCompression_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.physicalCompression_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveInverse_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveInverse_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveInverse_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveInverse_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.vectorHyperplane_projection_eta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hyperplane_inverse_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.hyperplane_inverse_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveInverse_energy_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.strictlyPositive_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.strictlyPositiveEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.galerkinGram_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.galerkinGram_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.galerkinGram_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.galerkinResidual_adjoint_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveGalerkin_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveGalerkin_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveGalerkin_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.galerkinResponse_mem_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.galerkinResponse_reproduces' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveGalerkin_inner_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positiveGalerkin_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positivePair_diagonalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.positivePair_spectral_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.block_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.A_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.C_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.C_inverseC' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.inverseC_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.inverseC_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.inverseC_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.short_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.block_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.short_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.short_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.short_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.short_inverseShort' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.inverseShort_short' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.solve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.solution_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.reconstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.solution_eq_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.inverseC_energy_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.inverseShort_energy_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.block_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.liftMap_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.liftMap_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.lift_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.graph_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.raw_short' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.raw_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.firstColumn_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.secondColumn_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.firstColumn_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.secondColumn_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.block_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.Data.ofOperator_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.row_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.row_adjoint_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.direct_inverseC' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.firstB_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.firstLift_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.first_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.first_short' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.first_effective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.forcing_transitivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.short_transitivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.successiveShort_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.inverse_transitivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.solution_transitivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.PositiveSchur.ThreeData.observation_transitivity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Basic.inner_projector_eq_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.boundaryRow_projector_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.projector_boundary_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.boundaryWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.projectorNormalized_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.projectorNormalized_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.projectorNormalized_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.normalized_line_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.projectorNormalized_eq_normalized_ground' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.lineProjector_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.lineProjector_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.lineProjector_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.lineProjector_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.lineProjectorNormalized_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.boundaryRow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.boundaryRow_adjoint_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complexification_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.trace_toEuclideanLin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.det_toEuclideanLin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Basic.complexification_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.mem_boundaryHyperplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_eq_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryProjection_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryProjection_eta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.eta_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_boundarySection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryProjection_boundarySection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompression_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompression_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompression_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompression_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_shifted_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompression_energy_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompression_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompressionEquiv_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompression_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryInverse_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryProjection_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundarySection_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryInverse_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryInverse_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCoupling_eq_shifted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCompression_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryProjection_ground' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundVector_boundary_resolvent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundarySection_inner_ground' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundarySection_inner_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundarySection_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryCoupling_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_schur_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_schur_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundVector_boundary_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundWeight_boundary_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundWeight_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.mass_smul_boundarySection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_forcing_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_schur_unnormalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_residual_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryInverse_eq_positive_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryResponse_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundVector_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryObservation_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryEnergy_schur' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.normalizedBoundaryObservation_schur' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.schur_anchor_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryResponse_schur_transitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundaryObservation_schur_transitive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_observation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_observation_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.normalized_boundary_observation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_observation_anchor_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.centeredFourierRow_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_fourier_boundary_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_fourier_anchor_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_normalized_fourier_boundary_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_boundary_ratio_denominator_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.odd_inner_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.kernel_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.ground_bright' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_normalizedGround' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_normalizedGround' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.reflection_normalizedGround' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_D_normalizedGround' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundarySoftMean_eq_logDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_anchoredBoundaryCharacteristic_anchor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.boundarySoftMean_quarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.complexSinc_derivative_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.complexSinc_logDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.sinc_slope_eq_latticeTail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.logDeriv_imaginary_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundarySoftMean_of_axis_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.constantModeExample_ground_eq_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.constantModeExample_bright' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.constantModeExample_derivative_ground' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_ground' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_on_boundary_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_corrected_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.metric_intertwining' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.weighted_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.projector_ground' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_ground' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_characteristic_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_characteristic_capacity_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.native_characteristic_capacity_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_characteristic_coupling_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_boundarySoftMean_eq_softMean_add_lattice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.native_boundarySoftMean_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.frequency_eq_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.half_frequency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.shifted_argument' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.phase_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.phased_sinc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundaryCharacteristic_off_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundaryCharacteristic_at_mode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.sinc_at_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.centeredFourierObservation_at_mode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.centeredFourierObservation_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.centeredFourierObservation_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundaryCharacteristic_eq_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.differentiable_boundaryCharacteristic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundaryCharacteristic_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_boundaryCharacteristic_nonreal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_boundaryCharacteristic_eq_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.native_boundaryCharacteristic_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_fourierObservation_nonreal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.differentiable_centeredFourierObservation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.integral_symmetric_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.integral_centered_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.frequency_half_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.centered_mode_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.integral_fourierFunction_centered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.freeMatrix_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.freeMatrix_det_ne_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.freeMatrix_det_ne_zero_of_nonreal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.endpointRow_dot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.freeMatrix_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundaryMatrix_determinant_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.mode_zero' depends on axioms: [propext, Quot.sound]
+'Riemann.CCM.Native.mode_injective' depends on axioms: [propext, Quot.sound]
+'Riemann.CCM.Native.mode_eq_zero' depends on axioms: [propext, Quot.sound]
+'Riemann.CCM.Native.mode_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.mode_rev' depends on axioms: [propext, Quot.sound]
+'Riemann.CCM.Native.frequency_rev' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.frequency_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.frequency_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.ofMatrix_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.ofMatrix_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.derivative_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.derivative_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.reflection_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.reflection_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.reflection_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.reflection_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.constant_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.derivative_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.endpointVector_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.endpointVector_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.endpoint_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.endpoint_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.endpoint_adjoint_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.constant_bright' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.endpointVector_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.fourierFunction_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.frequency_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.fourierFunction_end' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundComplementIncl_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundComplement_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundComplementProjection_incl' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_groundComplementProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundComplementProjection_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.complementCorrected_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.complementCorrected_symmetric' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.complementCorrected_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.complementCorrected_selfadjoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.complementCorrected_spectrum_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_kernel_eq_groundVector_span' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundComplementSubmodule_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_representative_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.complementCorrected_representative_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_mem_groundComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_groundComplement_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundComplement_energy_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_groundComplementProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.complementCorrected_projection_intertwines' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundComplementProjection_eigenvector_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_eigenvalue_real_via_complement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundProjector_idempotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundProjector_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundProjector_ground' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundProjector_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundProjector_range_eq_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundProjector_eta_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundWeight_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundProjector_groundVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundVector_eq_normalizedGround' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_groundVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_groundVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.reflection_groundVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.groundVector_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_D_groundVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.freePencil_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.pencil_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.determinantRatio_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.boundaryVector_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.inverseEnergy_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.pencil_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.determinantRatio_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.symmetric_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.pencil_split_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.hasDerivAt_determinantRatio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.hasDerivAt_boundaryResponse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.rankOne_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.inversePencil_boundary_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.inversePencil_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.inverseEnergy_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.responseEnergy_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.hasDerivAt_responseEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.hasDerivAt_inverseEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.boundaryNumerator_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.logarithmicEnergy_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.inversePencil_boundaryVector_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.boundaryCorrection_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.boundaryCorrection_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.boundaryResponse_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.hasDerivAt_boundaryResponse_deriv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.boundaryCorrection_second_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.pencil_log_ratio_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.high_spectral_representation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.capacity_log_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.capacity_energy_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.fixed_anchor_capacity_energy_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.fixed_anchor_capacity_of_energy_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.odd_pair_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.odd_synthesis_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_full_resolvent_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundaryMatrix_derivative_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_boundary_determinant_inverseEnergy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.native_characteristic_inverseEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.continuousAt_responseMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.continuousAt_boundaryCorrection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.hasDerivAt_logarithmicBalance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.boundaryCorrection_intervalIntegrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.logarithmicBalance_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.log_determinantRatio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.boundaryCorrection_integral_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.fixed_anchor_log_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.fixed_anchor_correction_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.determinantRatio_energy_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.determinantRatio_energy_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.fixed_anchor_energy_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.hasDerivAt_log_determinantRatio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.InverseEnergyData.empty_high_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.inversePencil_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.inversePencil_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.highMean_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.InverseEnergyData.highMean_inverseEnergy_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.imaginary_mem_integerComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.cot_pair_imaginary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.summable_dimensionless_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.dimensionless_lattice_eq_cot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.positiveLatticeWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.latticeTail_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.positiveLatticeWeight_dimensionless' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.summable_positiveLatticeWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.summable_latticeTail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.latticeTail_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.latticeTail_zero_eq_cot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.latticeTail_zero_eq_hyperbolic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.reciprocal_square_le_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.positiveLatticeWeight_le_telescoping' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.latticeTail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.latticeTail_quarter_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighInclusion_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighInclusion_parity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.squaredDerivative_mem_oddHigh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighFree_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHighMass_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_energy_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeShifted_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHighMass_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHighEnergy_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_ground_bright' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_groundWeight_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_metric_intertwining' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_corrected_eigenvalue_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.boundaryMatrix_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_boundaryMatrix_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_determinant_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_boundary_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.oddGraphData_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.oddGraphData_coupling_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.oddGraphData_fullPencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.oddGraphData_mean_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highMatrixOperator_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highMatrixOperator_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_inverseMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_inverseMassTrace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_softMean_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinate_det_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_pencil_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_mass_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_freePencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_freePencil_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_determinantRatio_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_realSynthesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_realForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highSynthesisLinear_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highSynthesisLinear_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highSynthesisIsometry_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highSynthesis_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highSynthesis_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highSynthesis_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.odd_high_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highSynthesis_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_symm_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_symm_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highMatrixOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinate_conjugate_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.lowHighMerge_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeLowHighColumns_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeLowHighColumns_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeLowHighColumns_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeLowHighColumns_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.lowFreeOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highFreeOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.lowHighMerge_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeLowHighColumns_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.canonicalNativeGraphData_fullPencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.canonicalNativeGraphData_fullMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.canonicalNativeGraphData_fullMean_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.lowHighMerge_inl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.lowHighMerge_inr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeLowHighColumns_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeLowHighColumns_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.canonicalNativeGraphData_highPencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.canonicalNativeGraphData_highMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.canonicalNativeGraphData_highMean_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.mode_highPositiveIndex' depends on axioms: [propext, Quot.sound]
+'Riemann.CCM.Native.highPositiveIndex_injective' depends on axioms: [propext, Quot.sound]
+'Riemann.CCM.Native.highPositiveIndex_ne_rev' depends on axioms: [propext, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highFrequency_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_squaredDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighRealSynthesis_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighRealSynthesis_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighRealSynthesis_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.realColumnGram_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.realColumnGram_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_orthonormal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.derivative_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.shifted_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.inner_real_of_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highRealZeta_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_zeta_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.oddHighVector_endpointDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highRealFree_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highRealMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highRealEnergy_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highRealBeta_complex_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highReal_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highRealMass_complex_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highRealEnergy_complex_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highRealZeta_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_highMean_inverseEnergy_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_fixed_anchor_log_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_fixed_anchor_capacity_energy_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.native_freeMean_eq_positive_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_full_freeMean_eq_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_freeMean_tail_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_boundarySoftMean_eq_highMean_add_lattice' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.highMatrixOperator_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.highCoordinateEquiv_massInverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHighSourceResponse_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHighSourceResponse_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_sourceEnergy_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_sourceEnergy_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.nativeHigh_softMean_sourceEnergy_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.nativeHigh_fixed_anchor_capacity_energy_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.Native.mem_oddHigh_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.odd_eq_zero_of_pairings' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.ground_derivative_odd_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.boundary_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.odd_shifted_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.derivative_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.odd_differentiated_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.odd_shifted_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.odd_differentiated_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.oddColumnPencil_energy_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.oddColumn_softMean_boundaryCorrection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.oddColumn_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_kills_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.shifted_positive_on_complement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.CCM.FullSimpleEvenData.corrected_eigenvalue_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.mode_difference_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.weilMatrix_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.weilMatrix_hermitian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.weilMatrix_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.weilOperator_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.weilOperator_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.reflection_weilOperator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.displacementVector_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.displacementVector_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.displacement_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.displacement_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.CCM.Native.native_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.columnEnergy_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.columnEnergy_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.endpointCorrectedColumns_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.endpointCorrectedColumns_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.endpointCorrectedColumns_on_hyperplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.endpointCorrectedColumns_common_compression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Capacity.softMean_endpointCorrection_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.columnEnergy_boundaryCorrection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.trace_mass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.galerkin_inverse_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.lowIncl_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.lowIncl_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.lowIncl_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.block_low_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.block_high_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.block_inverse_energy_low' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.block_inverse_energy_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.block_inverseMassTrace_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.lifted_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.lifted_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.lifted_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.lifted_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.mean_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.coupling_eq_lifted_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.graphMetric_isPositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.highMetric_isPositive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.coupling_trace_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.coupling_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.common_coupling_hyperplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.common_coupling_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.coupling_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.coupling_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.full_high_graph_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.capacityWithLattice_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Capacity.GraphData.capacityWithLattice_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.highIncl_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.highIncl_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.highIncl_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.graphOperator_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.highOperator_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.graphOperator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.highOperator_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.metric_graph_high' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.graph_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.high_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.graph_high_cross' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.high_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.metric_graph_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.graph_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.graphChange_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.transformed_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.transformed_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.RankOneBlocks.theta_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.RankOneBlocks.height_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.RankOneBlocks.theta_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.RankOneBlocks.short_lowResponse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.RankOneBlocks.denominator_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.RankOneBlocks.inverse_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.RankOneBlocks.inverse_normal_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.RankOneBlocks.inverse_normal_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.diagonal_inverse_low' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.coupling_denominator_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.GraphData.coupling_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.scalar_log_ratio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.finite_log_ratio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.inverseMassTrace_hyperplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.pencil_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.pencil_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.pencil_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.compress_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.softMean_hyperplane_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Riemann.Capacity.PositivePencil.softMean_hyperplane_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.softMean_hyperplane_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.softMean_common_hyperplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.inverse_mass_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.inverseMassTrace_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.trace_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.diagonal_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.congruence_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.softMean_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.orthogonalSum_pencil' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Capacity.PositivePencil.softMean_orthogonalSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.gram_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.gramEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.minimumNormMap_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.observation_minimumNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.minimumNorm_inner_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.source_norm_sq_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.minimumNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.minimumNorm_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.minimumNorm_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.minimumNorm_error_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.minimumNorm_isLeast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Riemann.Source.minimumNorm_sInf' depends on axioms: [propext, Classical.choice, Quot.sound]

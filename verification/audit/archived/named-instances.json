@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Riemann.Analysis.FiniteWindow.primeAlgebra_comm",
+    "kind": "instance",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 52
+  },
+  {
+    "name": "Riemann.Analysis.FiniteWindow.primeAlgebra_commRing",
+    "kind": "instance",
+    "source": "Riemann/Analysis/FiniteWindow/PrimeHilbert.lean",
+    "line": 58
+  },
+  {
+    "name": "Riemann.Arithmetic.shiftAlgebra_comm",
+    "kind": "instance",
+    "source": "Riemann/Arithmetic/MultiplicativeShift.lean",
+    "line": 54
+  },
+  {
+    "name": "Riemann.Arithmetic.shiftAlgebra_commRing",
+    "kind": "instance",
+    "source": "Riemann/Arithmetic/MultiplicativeShift.lean",
+    "line": 60
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_finite",
+    "kind": "instance",
+    "source": "Riemann/CCM/BoundaryHyperplane.lean",
+    "line": 26
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.boundaryHyperplane_complete",
+    "kind": "instance",
+    "source": "Riemann/CCM/BoundaryHyperplane.lean",
+    "line": 30
+  },
+  {
+    "name": "Riemann.CCM.FullSimpleEvenData.groundComplementSubmodule_complete",
+    "kind": "instance",
+    "source": "Riemann/CCM/GroundComplement.lean",
+    "line": 25
+  }
+]
