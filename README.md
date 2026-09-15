@@ -1,7 +1,7 @@
 # Weil form operators
 
 Companion repository for **An operator-theoretic representation of the Weil
-quadratic form**, by [Dylan Suvlu](https://dsuvlu.github.io/).
+quadratic form**.
 
 [Read the paper](paper/weil-form-operators.pdf) ·
 [Lean theorem map](verification/THEOREM_MAP.md) ·
@@ -11,7 +11,7 @@ The paper constructs completed arithmetic translation operators, identifies the
 localized Weil form through their logarithmic derivative and boundary leakage,
 and derives the finite Fourier matrix used in the CCM characteristic construction.
 The repository supplies the paper PDF, its precisely scoped Lean counterparts,
-and numerical experiments. The Riemann Hypothesis remains unproved.
+and numerical experiments.
 
 ## Contents
 
