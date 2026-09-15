@@ -15,8 +15,7 @@ and numerical experiments.
 
 ## Contents
 
-- **paper/** — the paper PDF, revised 15 September 2026 with the Suzuki
-  comparison; Typst sources remain with the author.
+- **paper/** — the paper PDF.
 - **verification/** — the full paper-linked Lean source snapshot, pinned
   dependencies, theorem map, exact declaration types and archived audit evidence.
 - **experiments/** — twelve numerical demonstrations, including an optional
