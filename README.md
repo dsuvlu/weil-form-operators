@@ -14,7 +14,7 @@ Current drafts: **24 September 2026**.
 | III | [Arithmetic reconstruction and endpoint regularity of the completed ζ response](paper/arithmetic-reconstruction-endpoint-regularity.pdf)
 | IV | [Constant-mode transfer and compactness criteria for finite Weil characteristics](paper/finite-weil-constant-mode-transfer.pdf)
 
-**Animated reading of Paper I.** [Weil’s Boundary Response](animation/index.html)
+**Animated reading of Paper I.** [Weil’s Boundary Response](https://dsuvlu.github.io/weil-form-operators/animation/)
 walks through six scenes of the paper: logarithmic shifts, the non-closable
 echo, the completed kernel, leakage at the window edge, the finite Fourier
 matrix and finite characteristics. It is a single self-contained web page. GitHub
