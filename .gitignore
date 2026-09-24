@@ -3,7 +3,6 @@ verification/audit/latest/
 .venv/
 __pycache__/
 *.py[cod]
-experiments/figures/
 experiments/*diagnostics*.csv
 experiments/*precision*.csv
 .DS_Store

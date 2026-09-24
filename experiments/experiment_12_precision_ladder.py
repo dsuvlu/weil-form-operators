@@ -18,7 +18,19 @@ import math
 from common import characteristic_from_transform, ground_state_data
 from high_precision import mp_characteristic_from_transform, mp_ground_state_data
 from precision import configure_mpmath
+import presentation as ui
 
+
+ui.banner(
+    12,
+    "The precision ladder",
+    status="numerical method diagnostic",
+    reference="Experiments 8 and 9 at x = 2, N = 4",
+    claim=(
+        "Repeating one finite calculation at float64 and at 50, 100 and 200 "
+        "digits shows which digits are already stable in double precision."
+    ),
+)
 
 x = 2.0
 N = 4
@@ -76,3 +88,11 @@ print()
 print("Interpretation: once the displayed digits stop changing, more precision")
 print("does not improve the demo.  Use higher profiles only when a gap, residual,")
 print("or cancellation is small enough to make the float64 result ambiguous.")
+
+ui.reading(
+    "Every mpmath row agrees to all displayed digits, and float64 agrees with "
+    "them to at least eleven significant digits (the imaginary part of Theta(i/4) "
+    "is rounding noise in every row; the exact value is real).  For this carrier "
+    "double precision is ample.  The discrepancies in Experiments 1, 3, 6 and 7 "
+    "come from discretization, which more digits cannot remove."
+)

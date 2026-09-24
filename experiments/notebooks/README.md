@@ -56,8 +56,11 @@ calling `figure.savefig(...)` on a figure you give a public name in its plot cel
 
 ## Relationship to the scripts
 
-The original `experiment_*.py`, `common.py`, `high_precision.py`, and `precision.py`
-are unchanged. `uv run --locked python experiments/run_all.py` and the existing smoke test work
+The numerical methods the notebooks copy (`common.py`, `high_precision.py`,
+`precision.py`) are unchanged from the archive. The `experiment_*.py` scripts
+have revised figures and console text, but their calculations are unchanged;
+[PROVENANCE.md](../PROVENANCE.md) records how that was checked.
+`uv run --locked python experiments/run_all.py` and the existing smoke test work
 as before, without installing marimo.
 
 The notebooks deliberately contain **editable copies** of the small numerical
