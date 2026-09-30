@@ -140,8 +140,11 @@ supports Python 3.10–3.13 with the current numerical package pins.
 To include the precision ladder, use
 `uv run --locked python experiments/run_all.py --include-precision-ladder`.
 The [illustrated experiment guide](experiments/README.md) shows every figure with
-its explanation; `run_all.py` regenerates the figures byte for byte. Diagnostic
-tables are generated locally. Higher precision is not certified interval
+its explanation; `run_all.py` regenerates the figures. Floating-point and SVG
+rendering differences can prevent byte-identical output across platforms, even
+with pinned packages. The release manifest checks the committed assets; review
+regenerated figures before refreshing their hashes. Diagnostic tables are
+generated locally. Higher precision is not certified interval
 arithmetic. Numerical agreement does not prove a theorem.
 
 ## Editable notebooks
@@ -165,10 +168,11 @@ frozen Lean and original-Python source checks.
 
 The Lean distribution and theorem map retain their frozen Paper I scope.
 The new projection bridge, response estimates and two-source criterion are
-written-proof results, not newly Lean-verified results. The existing
-`RELEASE_MANIFEST.json`, validation receipts and `paper/README.md` describe
-the earlier distribution; their PDF/README hashes and draft metadata have
-not been regenerated for this PDF-and-README update.
+written-proof results, not newly Lean-verified results.
+`RELEASE_MANIFEST.json` covers the current four-paper distribution, including
+the September 24 drafts, illustrated experiments and animation. The frozen Lean
+snapshot and archived validation receipts retain their original scope and dates;
+refreshing distribution hashes does not extend their mathematical coverage.
 
 The theorem map distinguishes compiled declarations from mathematical arguments
 provided only in the paper. In particular, this snapshot does not formalize the
@@ -179,8 +183,8 @@ and fixed critical half-line results under their exact hypotheses.
 
 ## Citation and licenses
 
-The existing [CITATION.cff](CITATION.cff) describes the earlier Paper I release;
-use the titles and draft versions above for the current manuscripts.
+[CITATION.cff](CITATION.cff) records the current draft dates and all four paper
+titles; cite the manuscript relevant to the result used.
 Code, configuration and accompanying documentation are licensed under
 [Apache-2.0](LICENSE), except where otherwise indicated. The paper PDFs are
 licensed under [CC BY 4.0](paper/LICENSE). Third-party dependencies retain their
