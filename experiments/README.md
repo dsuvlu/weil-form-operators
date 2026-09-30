@@ -333,10 +333,13 @@ uv run --locked python run_all.py
 uv run --locked python run_all.py --include-precision-ladder
 ```
 
-`run_all.py` regenerates every figure in `figures/`. The SVGs are deterministic:
-fixed element ids, no timestamp, glyphs stored as paths. Rerunning therefore
-reproduces them byte for byte on the pinned environment. `presentation.py` holds
-the shared figure style and console layout. It computes no mathematics.
+`run_all.py` regenerates every figure in `figures/`. The SVG settings use fixed
+element ids, no timestamp and glyphs stored as paths. Floating-point and
+rendering differences can nevertheless prevent byte-identical output across
+platforms, even with pinned packages. Review regenerated figures before
+refreshing release hashes; the manifest verifies the committed asset bytes.
+`presentation.py` holds the shared figure style and console layout. It computes
+no mathematics.
 
 The numerical code descends from a precision-ladder archive described in
 [PROVENANCE.md](PROVENANCE.md). The scripts' presentation has since been revised
