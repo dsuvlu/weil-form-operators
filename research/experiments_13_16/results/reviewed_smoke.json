@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "evidence_status": "Numerical diagnostic, uncertified",
+  "summary_only": true,
+  "environment": {
+    "python": "3.13.5",
+    "status": "Numerical diagnostic, uncertified",
+    "mpmath": "1.4.1",
+    "python-flint": "0.9.0",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "solver": "flint eig(algorithm=approx)"
+  },
+  "reviewed_source_hashes": {
+    "experiment_13_characteristic_mean.py": "4899c2ed9b133d026053c46f9637beaf7b62b1aed1cc18d42fab23921c01b9bf",
+    "experiment_14_lefschetz_decomposition.py": "c05cea6fbbc11ca73f779cebd158fefd695ea6d7d847d7f04c7cd85a711cf2ea",
+    "experiment_15_davenport_heilbronn_control.py": "2674b6b8a3f77ca036214caa759dff0629af47c4ed22bdcd2b0831a63fce3610",
+    "experiment_16_arithmetic_localization.py": "8f88acf4a313c100971c20ea87b2d9fe18a1fe9498698bdf4173d1595ce58b2d",
+    "research_diagnostics.py": "beeeba9badac417fce7ffc58fb9686432a555544dc9ed9c4650278fc3e3ff14c",
+    "research_presentation.py": "9d334876c97db9ae1d325a075ab27eecd8760b5de9f27c3f895538d959d39315",
+    "research_runtime.py": "b27cce4119a2b5d52c9a7912e8eb6bf6f2489d669a355ab7a5277cb2c3c13bc0",
+    "weil_general.py": "cc6d7a649aa3814d0dbe2b2f36d5b6c3a9cca725e9ce3565c78c68fb96826827"
+  },
+  "cases": {
+    "zeta_x5_N6": {
+      "status": "precision_stable",
+      "precisions": [
+        78,
+        117
+      ],
+      "mu": "0.0012769299205181277244",
+      "mu_corr": "0.00064729181563203504825",
+      "mu_lat": "0.00062963810488609267619",
+      "algebraic_root_count": 6,
+      "trace_mean_scaled_difference": "3.0735793880180326802e-117"
+    },
+    "dh_x20_N4": {
+      "status": "precision_stable",
+      "precisions": [
+        60,
+        84
+      ],
+      "mu": "0.006750027962734614893",
+      "mu_corr": "0.0036062403271082816483",
+      "mu_lat": "0.0031437876356263332448",
+      "algebraic_root_count": 4,
+      "trace_mean_scaled_difference": "4.8258352401262771108e-86"
+    },
+    "lefschetz_x13_N14": {
+      "dps": 120,
+      "precision_status": "single_precision_aggregate_diagnostic",
+      "neg_J_even": 1,
+      "neg_J_odd": 0,
+      "log10_defect_u": -31.797077679839205,
+      "log10_defect_w": -27.203587937343503
+    },
+    "surgery_x20": [
+      {
+        "variant": "S0",
+        "coefficient_precisions": [
+          114,
+          159
+        ],
+        "precision_stable": true,
+        "n_neg": 0,
+        "lam_min": "1.8530624819521162842e-17",
+        "max_eigenvalue_relative_difference": "5.1699050176878163585e-99"
+      },
+      {
+        "variant": "S1",
+        "coefficient_precisions": [
+          114,
+          159
+        ],
+        "precision_stable": true,
+        "n_neg": 2,
+        "lam_min": "-0.56737707481749442797",
+        "max_eigenvalue_relative_difference": "7.0131659444784594848e-114"
+      },
+      {
+        "variant": "S2",
+        "coefficient_precisions": [
+          114,
+          159
+        ],
+        "precision_stable": true,
+        "n_neg": 1,
+        "lam_min": "-1.6642495914180045308",
+        "max_eigenvalue_relative_difference": "3.5118533914756334662e-114"
+      },
+      {
+        "variant": "S3",
+        "coefficient_precisions": [
+          114,
+          159
+        ],
+        "precision_stable": true,
+        "n_neg": 1,
+        "lam_min": "-0.66019205944673564765",
+        "max_eigenvalue_relative_difference": "3.0574515851304095394e-114"
+      }
+    ],
+    "matrix_difference": "6.4920502152842191785e-78"
+  }
+}

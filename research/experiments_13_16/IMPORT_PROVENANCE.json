@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source": "User-supplied Opus experiments 13\u201316 archive; imported on 2026-09-30",
+  "outer_archive_sha256": "93b0ba2d4929a39bf5fc6c82c900a88b46158ef1aca33d0ee809e19e7a66e29e",
+  "nested_archive_sha256": "41be8987f46b2c1afe34f8006229f11fa0deba320671665f5967354c7cbad771",
+  "imported_files": {
+    "imported/experiments/experiment_13_characteristic_mean.py": "0eaa6e72399b02664611fefbe7762f47708c8bf63489fcdb80ca82b948b5b9c5",
+    "imported/experiments/experiment_14_lefschetz_decomposition.py": "c418e683a03971151893a7082a34d053c1e7e2ef5edf1f4a95dd272e50f7c9e4",
+    "imported/experiments/experiment_15_davenport_heilbronn_control.py": "1ecd4d0f5e938330c6aea1df24190b4036dd7b72dae46ade4622205304263774",
+    "imported/experiments/experiment_16_arithmetic_localization.py": "f88d793baca1aea73dbcb429b4c0c7dfe8fd8bd1fb760c69ca5d99fadf006242",
+    "imported/experiments/figures/experiment_13_characteristic_mean.png": "5d852023048dec7c3a40ec36d724f41e4074c81bb0aa5027cdf3affb6c877e70",
+    "imported/experiments/figures/experiment_13_characteristic_mean.svg": "bbd681aca54eeaa1c9dcc5ffaa8b97d8d7d2cbb27cf185eeb2c799e1ce4f7930",
+    "imported/experiments/figures/experiment_15_dh_control.png": "665b863a3ef60ba016cc77e9b4b008560a76f66bbdcda0a280cb82daff76c01f",
+    "imported/experiments/figures/experiment_15_dh_control.svg": "2ffce0e8a27d0043fb01a88147db3612773e73eda2043171661d785f6e792d51",
+    "imported/experiments/figures/experiment_16_edge_settlement.png": "94a8df9de5b22e66704c601a92809c39a63497c6f92f27e8475ce98a469b43f0",
+    "imported/experiments/figures/experiment_16_edge_settlement.svg": "ce91370a945f55c850ff75832598b91646289cd1f722a73f6b38fba24f2664ff",
+    "imported/experiments/results/characteristic_mean.json": "ce0fd39092d1dc7bcdd47c33c0a5814415884e6b5a6576e91790f8f1930a55fa",
+    "imported/experiments/results/characteristic_mean_cutoff.csv": "43a671eda989e352fbe01efbf97fedb0dd7a8573029fda4adcc75626573c3e8b",
+    "imported/experiments/results/characteristic_mean_family.csv": "4c686560b12621174ea2135722ed5ad0ab1149b9dbe13bc78af70032be7e89ae",
+    "imported/experiments/results/experiment_14_lefschetz.json": "9f4b8f8fd9ee3ff5e80feeaf4254e49dd3b9f130b6fc5e36836017d66a837698",
+    "imported/experiments/results/experiment_15_dh_control.json": "7a37ef011161eef83a4a4770182c9a34edee21e8d36d1ad80946da28b45aaa2a",
+    "imported/experiments/results/experiment_16_localization.json": "33eba003641e97e063a522da87f0eda16fd4d2cd01c1529493c3a6ec599e3aba",
+    "imported/experiments/weil_general.py": "ca8c1848952aeebd545690f1d8430cb2abc501e2e9cf6900a0fcccd7cd8a23eb"
+  }
+}
