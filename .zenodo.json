@@ -1,0 +1,38 @@
+{
+  "upload_type": "software",
+  "title": "Weil form operators: papers, Lean verification and numerical experiments",
+  "creators": [
+    {
+      "name": "Suvlu, Dylan",
+      "orcid": "0000-0003-3216-1338"
+    }
+  ],
+  "description": "<p>Four draft articles on completed arithmetic operators, the Weil quadratic form, causal response and finite spectral selection, with a Lean 4 verification snapshot and twelve numerical experiments.</p><ol type=\"I\"><li>An operator-theoretic representation of the Weil quadratic form</li><li>θ correlations and a causal range criterion for the Weil form</li><li>Arithmetic reconstruction and endpoint regularity of the completed ζ response</li><li>Constant-mode transfer and compactness criteria for finite Weil characteristics</li></ol><p>Code, configuration and documentation are licensed under Apache-2.0. The paper PDFs in <code>paper/</code> are licensed under CC BY 4.0.</p>",
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "Weil explicit formula",
+    "Weil quadratic form",
+    "Riemann zeta function",
+    "Riemann hypothesis",
+    "operator theory",
+    "Hankel operators",
+    "Connes–Consani–Moscovici",
+    "Lean 4",
+    "mathlib",
+    "formal verification"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dsuvlu/weil-form-operators",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://dsuvlu.github.io/weil-form-operators/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}

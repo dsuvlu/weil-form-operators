@@ -2,12 +2,28 @@ cff-version: 1.2.0
 message: "Please cite the relevant draft paper when using this repository. Paper I is the preferred citation; the companion papers are listed under references."
 title: "Weil form operators"
 type: software
+abstract: >-
+  Four draft articles on completed arithmetic operators, the Weil quadratic
+  form, causal response and finite spectral selection, together with a Lean 4
+  verification snapshot and numerical experiments.
 authors:
   - family-names: Suvlu
     given-names: Dylan
     orcid: "https://orcid.org/0000-0003-3216-1338"
     website: "https://dsuvlu.github.io/"
+repository-code: "https://github.com/dsuvlu/weil-form-operators"
+url: "https://dsuvlu.github.io/weil-form-operators/"
 license: Apache-2.0
+date-released: 2026-09-24
+keywords:
+  - Weil explicit formula
+  - Weil quadratic form
+  - Riemann zeta function
+  - Riemann hypothesis
+  - operator theory
+  - Hankel operators
+  - Lean 4
+  - formal verification
 preferred-citation:
   type: unpublished
   title: "An operator-theoretic representation of the Weil quadratic form"
@@ -18,6 +34,7 @@ preferred-citation:
   year: 2026
   month: 9
   date-published: 2026-09-24
+  url: "https://dsuvlu.github.io/weil-form-operators/paper/weil-form-operators/"
   notes: "Paper I, draft dated 24 September 2026; licensed CC BY 4.0."
 references:
   - type: unpublished
@@ -26,7 +43,10 @@ references:
       - family-names: Suvlu
         given-names: Dylan
         orcid: "https://orcid.org/0000-0003-3216-1338"
+    year: 2026
+    month: 9
     date-published: 2026-09-24
+    url: "https://dsuvlu.github.io/weil-form-operators/paper/theta-correlations-causal-range/"
     notes: "Paper II, draft dated 24 September 2026; licensed CC BY 4.0."
   - type: unpublished
     title: "Arithmetic reconstruction and endpoint regularity of the completed ζ response"
@@ -34,7 +54,10 @@ references:
       - family-names: Suvlu
         given-names: Dylan
         orcid: "https://orcid.org/0000-0003-3216-1338"
+    year: 2026
+    month: 9
     date-published: 2026-09-24
+    url: "https://dsuvlu.github.io/weil-form-operators/paper/arithmetic-reconstruction-endpoint-regularity/"
     notes: "Paper III, draft dated 24 September 2026; licensed CC BY 4.0."
   - type: unpublished
     title: "Constant-mode transfer and compactness criteria for finite Weil characteristics"
@@ -42,5 +65,8 @@ references:
       - family-names: Suvlu
         given-names: Dylan
         orcid: "https://orcid.org/0000-0003-3216-1338"
+    year: 2026
+    month: 9
     date-published: 2026-09-24
+    url: "https://dsuvlu.github.io/weil-form-operators/paper/finite-weil-constant-mode-transfer/"
     notes: "Paper IV, draft dated 24 September 2026; licensed CC BY 4.0."

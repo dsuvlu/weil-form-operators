@@ -1,0 +1,19 @@
+# GitHub Pages site for https://dsuvlu.github.io/weil-form-operators/
+title: Weil form operators
+description: >-
+  Four articles by Dylan Suvlu on completed arithmetic operators, the Weil
+  quadratic form, causal response and finite spectral selection, with a Lean 4
+  verification snapshot and numerical experiments.
+author: Dylan Suvlu
+lang: en
+url: https://dsuvlu.github.io
+baseurl: /weil-form-operators
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+social:
+  name: Dylan Suvlu
+  links:
+    - https://orcid.org/0000-0003-3216-1338
+    - https://github.com/dsuvlu

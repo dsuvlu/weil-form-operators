@@ -1,0 +1,69 @@
+---
+layout: paper
+number: 1
+roman: I
+title: An operator-theoretic representation of the Weil quadratic form
+citation_title: An operator-theoretic representation of the Weil quadratic form
+citation_authors:
+  - Suvlu, Dylan
+citation_date: 2026-09-24
+pdf: /paper/weil-form-operators.pdf
+pdf_pages: 30
+bibtex_key: suvlu2026weilform
+math: true
+description: >-
+  The localized Weil quadratic form as the boundary response of a completed
+  arithmetic operator family: on a fixed interval, the Weil form on completed
+  outputs is the negative derivative at s = 1/2 of the energy escaping the
+  interval. Includes the complete finite Fourier matrix and its relation to the
+  Connes–Consani–Moscovici finite characteristic.
+keywords:
+  - Weil explicit formula
+  - Weil quadratic form
+  - Riemann zeta function
+  - completed zeta function
+  - convolution operators
+  - operator theory
+  - Connes–Consani–Moscovici
+  - Lean 4
+---
+<p>
+The Weil explicit formula expresses a Hermitian pairing through prime powers and
+the Γ and polar terms of the completed ζ function; restricting it to a finite
+interval gives the localized Weil form. We represent this form as the boundary
+response of a completed arithmetic operator family. On the full line, the
+functional equation makes the squared output norm of each fixed source
+stationary at the critical parameter \(s=\tfrac12\). For a source supported in a
+fixed interval, we prove that the Weil form on its retained completed output is
+the negative derivative, evaluated at \(s=\tfrac12\), of the energy escaping the
+interval under real variation of \(s\). The same pairing is half of a compressed
+difference of two orthogonal projections, \(P_- - \mathcal{U}P_-\mathcal{U}^*\),
+for a unitary \(\mathcal{U}\) constructed from the completed family.
+</p>
+<p>
+The family is built from one-sided translations in logarithmic coordinates,
+which give finite Euler and Möbius identities on bounded windows. The
+uncompleted critical half-line operator is not closable. Adjoining the
+normalized Γ and polar factors, however, yields a bounded convolution operator
+whose explicit kernel is a weighted Müntz transform of a mean-zero polynomial.
+We construct a holomorphic family near the critical parameter. We then show that
+the critical source-Gram derivative on the half-line is trace class and is the
+trace-norm limit of its finite support compressions.
+</p>
+<p>
+We also derive the complete localized Fourier matrix: the Γ multiplier on the
+diagonal plus divided differences of one explicit real odd function. When the
+full least eigenvalue is simple and its eigenvector is even, we recover the
+Connes–Consani–Moscovici finite characteristic, with only real zeros, as the
+Fourier transform of the ground state. The completed finite-window range consists
+precisely of \(H^1\) functions vanishing at the terminal endpoint, and its
+projection onto every finite Fourier section is surjective. Positivity of the
+form and the limits of the characteristics as the interval grows are studied in
+companion papers.
+</p>
+<p>
+Parts of the finite arithmetic and finite-window results are formalized in
+Lean 4; see the
+<a href="https://github.com/dsuvlu/weil-form-operators/blob/main/verification/THEOREM_MAP.md">theorem map</a>
+for exactly which statements are machine-checked.
+</p>

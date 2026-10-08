@@ -1,0 +1,55 @@
+{% comment %}
+  Overrides the jekyll-theme-primer hook. Paper landing pages set the
+  citation_* front matter; Google Scholar reads the Highwire Press tags below.
+{% endcomment %}
+{% if page.citation_title %}
+<meta name="citation_title" content="{{ page.citation_title | escape }}">
+{% for author in page.citation_authors %}<meta name="citation_author" content="{{ author | escape }}">
+{% endfor %}<meta name="citation_publication_date" content="{{ page.citation_date | date: '%Y/%m/%d' }}">
+<meta name="citation_online_date" content="{{ page.citation_date | date: '%Y/%m/%d' }}">
+<meta name="citation_pdf_url" content="{{ page.pdf | absolute_url }}">
+<meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}">
+<meta name="citation_language" content="en">
+<meta name="citation_keywords" content="{{ page.keywords | join: '; ' | escape }}">
+<meta name="DC.title" content="{{ page.citation_title | escape }}">
+<meta name="DC.creator" content="Suvlu, Dylan">
+<meta name="DC.date" content="{{ page.citation_date | date: '%Y-%m-%d' }}">
+<meta name="DC.rights" content="https://creativecommons.org/licenses/by/4.0/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": {{ page.citation_title | jsonify }},
+  "name": {{ page.citation_title | jsonify }},
+  "abstract": {{ page.description | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": "Dylan Suvlu",
+    "identifier": "https://orcid.org/0000-0003-3216-1338",
+    "url": "https://dsuvlu.github.io/"
+  },
+  "datePublished": "{{ page.citation_date | date: '%Y-%m-%d' }}",
+  "inLanguage": "en",
+  "keywords": {{ page.keywords | jsonify }},
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "{{ page.url | absolute_url }}",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "{{ page.pdf | absolute_url }}",
+    "encodingFormat": "application/pdf"
+  },
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "Weil form operators",
+    "url": "{{ '/' | absolute_url }}"
+  },
+  "about": ["Weil explicit formula", "Riemann zeta function", "Operator theory"]
+}
+</script>
+{% endif %}
+{% if page.math %}
+<script>
+  window.MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] } };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+{% endif %}

@@ -1,25 +1,26 @@
 # Weil form operators
 
-Four draft articles on completed arithmetic operators, the Weil
-quadratic form, causal response and finite spectral selection.
+Four draft articles by Dylan Suvlu on completed arithmetic operators, the Weil
+quadratic form, causal response and finite spectral selection, with a Lean 4
+verification snapshot and numerical experiments.
 
 ## Papers
 
-Current drafts: **24 September 2026**.
+Current drafts: **24 September 2026**. Each paper has an abstract page with
+citation metadata and BibTeX.
 
-| Paper | PDF 
-|---|---|
-| I | [An operator-theoretic representation of the Weil quadratic form](paper/weil-form-operators.pdf)
-| II | [θ correlations and a causal range criterion for the Weil form](paper/theta-correlations-causal-range.pdf)
-| III | [Arithmetic reconstruction and endpoint regularity of the completed ζ response](paper/arithmetic-reconstruction-endpoint-regularity.pdf)
-| IV | [Constant-mode transfer and compactness criteria for finite Weil characteristics](paper/finite-weil-constant-mode-transfer.pdf)
+| Paper | PDF | Abstract |
+|---|---|---|
+| I | [An operator-theoretic representation of the Weil quadratic form](paper/weil-form-operators.pdf) | [abstract](https://dsuvlu.github.io/weil-form-operators/paper/weil-form-operators/) |
+| II | [θ correlations and a causal range criterion for the Weil form](paper/theta-correlations-causal-range.pdf) | [abstract](https://dsuvlu.github.io/weil-form-operators/paper/theta-correlations-causal-range/) |
+| III | [Arithmetic reconstruction and endpoint regularity of the completed ζ response](paper/arithmetic-reconstruction-endpoint-regularity.pdf) | [abstract](https://dsuvlu.github.io/weil-form-operators/paper/arithmetic-reconstruction-endpoint-regularity/) |
+| IV | [Constant-mode transfer and compactness criteria for finite Weil characteristics](paper/finite-weil-constant-mode-transfer.pdf) | [abstract](https://dsuvlu.github.io/weil-form-operators/paper/finite-weil-constant-mode-transfer/) |
 
 **Animated reading of Paper I.** [Weil’s Boundary Response](https://dsuvlu.github.io/weil-form-operators/animation/)
 walks through six scenes of the paper: logarithmic shifts, the non-closable
 echo, the completed kernel, leakage at the window edge, the finite Fourier
-matrix and finite characteristics. It is a single self-contained web page. GitHub
-shows HTML files as source, so open it from a local clone in a browser, or
-through GitHub Pages if Pages is enabled for this repository.
+matrix and finite characteristics. It is a single self-contained web page,
+also viewable from a local clone at `animation/index.html`.
 
 ## The four-paper story
 
@@ -185,6 +186,7 @@ and fixed critical half-line results under their exact hypotheses.
 
 [CITATION.cff](CITATION.cff) records the current draft dates and all four paper
 titles; cite the manuscript relevant to the result used.
+BibTeX for each paper is on its [abstract page](paper/README.md).
 Code, configuration and accompanying documentation are licensed under
 [Apache-2.0](LICENSE), except where otherwise indicated. The paper PDFs are
 licensed under [CC BY 4.0](paper/LICENSE). Third-party dependencies retain their

@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% assign lb = '{' %}{% assign rb = '}' %}
+<p><a href="{{ '/' | relative_url }}">Weil form operators</a> · Paper {{ page.roman }} of IV</p>
+
+<h1>{{ page.citation_title }}</h1>
+
+<p>
+  <strong>Dylan Suvlu</strong>
+  (<a href="https://orcid.org/0000-0003-3216-1338">ORCID 0000-0003-3216-1338</a>)
+  · Draft of {{ page.citation_date | date: "%-d %B %Y" }}
+</p>
+
+<p>
+  <a href="{{ page.pdf | relative_url }}"><strong>Download PDF</strong></a>
+  ({{ page.pdf_pages }} pages) · Licensed under
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+</p>
+
+<h2>Abstract</h2>
+
+{{ content }}
+
+<p><strong>Keywords:</strong> {{ page.keywords | join: "; " }}</p>
+
+<h2>Cite</h2>
+
+<pre><code>@unpublished{{ lb }}{{ page.bibtex_key }},
+  author = {{ lb }}Suvlu, Dylan{{ rb }},
+  title  = {{ lb }}{{ page.bibtex_title | default: page.citation_title }}{{ rb }},
+  year   = {{ lb }}{{ page.citation_date | date: "%Y" }}{{ rb }},
+  month  = {{ lb }}{{ page.citation_date | date: "%B" }}{{ rb }},
+  note   = {{ lb }}Preprint, draft of {{ page.citation_date | date: "%-d %B %Y" }}{{ rb }},
+  url    = {{ lb }}{{ page.url | absolute_url }}{{ rb }}
+{{ rb }}</code></pre>
+
+<h2>The series</h2>
+
+<ol type="I">
+{% assign papers = site.pages | where: "layout", "paper" | sort: "number" %}
+{% for paper in papers %}
+  <li>{% if paper.url == page.url %}<strong>{{ paper.citation_title }}</strong> (this page){% else %}<a href="{{ paper.url | relative_url }}">{{ paper.citation_title }}</a>{% endif %}</li>
+{% endfor %}
+</ol>
+
+<p>
+  Source repository: <a href="https://github.com/dsuvlu/weil-form-operators">github.com/dsuvlu/weil-form-operators</a>,
+  with the <a href="https://github.com/dsuvlu/weil-form-operators/tree/main/verification">Lean 4 verification snapshot</a>,
+  <a href="https://github.com/dsuvlu/weil-form-operators/tree/main/experiments">numerical experiments</a>
+  and an <a href="{{ '/animation/' | relative_url }}">animated reading of Paper I</a>.
+</p>
