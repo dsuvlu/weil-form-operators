@@ -1,0 +1,3 @@
+# Optional research environment: do not modify the release lockfile.
+-r ../../experiments/requirements-lock.txt
+python-flint==0.9.0

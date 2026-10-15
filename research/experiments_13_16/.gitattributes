@@ -1,0 +1,2 @@
+# Byte-preserved archive evidence: do not normalize line endings or whitespace.
+imported/** -text -whitespace
